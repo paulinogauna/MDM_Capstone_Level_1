@@ -1,0 +1,204 @@
+referral_id,referring_doctor_id,referred_doctor_id,patient_id,referral_date,reason,status,void_date
+1,1,2,4756,2022-05-15,Transfer of care,Pending,
+2,2,3,165,2022-05-20,Consultation,Declined,
+3,3,1,1566,2025-06-22,Consultation,Pending,
+4,508,275,134,2024-07-27,Consultation,Completed,
+5,416,16,3659,2025-09-13,Second opinion,Pending,
+6,290,522,2710,2023-10-27,Transfer of care,Accepted,
+7,308,403,2028-07-05,2026-10-12,Second opinion,Pending,2020-11-23
+8,235,15,4659,2025-11-23,Consultation,Completed,2023-12-04
+9,548,58,3999,2022-08-22,Transfer of care,Accepted,
+10,22,387,129,2023-04-21,Second opinion,Declined,
+11,272,477,4657,2025-12-06,Transfer of care,Accepted,
+12,432,474,3844,2022-01-16,Second opinion,Completed,2023-02-18
+13,275,275,4964,2023-06-10,Transfer of care,Declined,
+14,28,588,1738,2022-08-29,Transfer of care,Accepted,
+15,331,254,4148,2023-06-18,Consultation,Completed,
+16,250,579,918,2026-06-20,Imaging,Accepted,2023-03-19
+17,253,195,3475,2025-06-26,Imaging,Completed,
+18,197,392,4701,2023-07-03,Imaging,Pending,
+19,512,175,2452,2024-08-10,Surgery,Accepted,2023-01-31
+20,493,480,2281,2023-08-07,Imaging,Completed,2023-03-16
+21,239,203,2278,2026-12-28,Second opinion,Declined,
+22,303,2,2744,2026-01-02,Transfer of care,Declined,
+23,145,344,3526,2023-09-09,Transfer of care,Completed,
+24,510,513,1520,2026-06-22,Transfer of care,Declined,
+25,130,66,3060,2025-09-15,Surgery,Declined,2023-03-29
+26,399,91,1808,2026-05-16,Second opinion,Accepted,
+27,300,83,4292,2022-08-04,Second opinion,Accepted,
+28,497,460,743,2025-03-30,Imaging,Declined,2026-05-06
+29,457,512,1653,2026-04-06,Surgery,Declined,2026-04-14
+30,572,485,2637,2022-05-29,Second opinion,Completed,2026-09-11
+31,460,330,3247,2023-07-19,Transfer of care,Declined,2024-09-16
+32,430,300,878,2026-05-21,Transfer of care,Declined,
+33,185,291,3461,2025-08-17,Transfer of care,Accepted,
+34,604,532,950,2022-11-13,Lab work,Accepted,2023-05-11
+35,122,388,1779,2024-04-16,Second opinion,Pending,
+36,437,177,2908,2026-12-01,Transfer of care,Pending,
+37,101,66,3565,2023-08-16,Lab work,Completed,2025-09-22
+38,200,363,23,2025-01-13,Consultation,Pending,
+39,17,545,1468,2026-07-20,Second opinion,Declined,
+40,570,594,3878,2022-03-19,Lab work,Declined,
+41,511,519,3831,2026-01-06,Surgery,Accepted,
+42,455,77,4769,2022-01-25,Imaging,Completed,
+43,194,195,4195,2022-01-28,Consultation,Declined,
+44,471,285,1873,2026-01-18,Lab work,Declined,
+45,390,476,772,2023-01-31,Second opinion,Declined,
+46,73,593,2913,2023-07-02,Second opinion,Accepted,
+47,386,184,4085,2022-04-12,Transfer of care,Declined,
+48,541,14,3664,2022-04-13,Consultation,Completed,
+49,253,119,1771,2026-07-04,Imaging,Pending,2023-06-25
+50,209,209,4531,2022-04-16,Imaging,Declined,2024-11-21
+51,466,117,4734,2026-05-04,Transfer of care,Accepted,
+52,577,587,4317,2022-01-07,Consultation,Accepted,
+53,187,76,2980,2022-01-10,Lab work,Declined,2023-11-04
+54,300,506,2191,2022-05-06,Second opinion,Pending,
+55,67,430,88,2026-07-02,Transfer of care,Completed,
+56,547,587,560,2022-08-25,Second opinion,Pending,
+57,554,603,1638,2025-08-14,Transfer of care,Accepted,2024-08-22
+58,108,236,4594,2025-10-28,Second opinion,Completed,
+59,586,42,4308,2023-01-27,Lab work,Pending,2025-12-20
+60,16,386,2044,2024-06-26,Transfer of care,Pending,2025-10-13
+61,450,179,1088,2024-02-17,Surgery,Declined,
+62,302,269,835,2025-06-09,Lab work,Pending,
+63,508,485,4698,2022-01-25,Consultation,Declined,2025-10-17
+64,438,216,1568,2026-12-16,Surgery,Accepted,
+65,176,161,2060,2025-07-02,Imaging,Accepted,
+66,118,267,2162,2024-08-15,Lab work,Accepted,
+67,583,163,2603,2026-04-11,Lab work,Declined,
+68,284,428,1242,2022-10-02,Imaging,Completed,2026-08-02
+69,576,25,3251,2026-03-10,Imaging,Pending,
+70,270,192,3842,2022-10-24,Transfer of care,Pending,2023-08-29
+71,138,268,1255,2024-08-24,Second opinion,Pending,
+72,373,552,3929,2024-12-23,Lab work,Completed,
+73,45,381,1551,2024-10-06,Transfer of care,Completed,
+74,470,386,2101,2024-10-19,Surgery,Completed,
+75,597,439,4200,2025-06-22,Surgery,Declined,
+76,475,66,4724,2023-10-14,Surgery,Completed,2025-12-16
+77,146,103,4468,2025-01-05,Surgery,Declined,
+78,328,553,652,2024-08-30,Lab work,Declined,2023-12-29
+79,309,103,3745,2022-05-25,Surgery,Pending,2026-02-07
+80,456,392,206,2025-01-15,Lab work,Accepted,2023-10-21
+81,161,399,3978,2024-09-04,Imaging,Completed,
+82,554,100,453,2023-08-26,Lab work,Accepted,2024-03-21
+83,336,393,2167,2025-01-10,Surgery,Completed,
+84,384,458,707,2022-03-20,Surgery,Completed,
+85,388,239,4925,2026-09-20,Surgery,Pending,
+86,583,583,2818,2025-01-20,Imaging,Declined,2026-08-24
+87,290,567,185,2022-09-22,Surgery,Pending,
+88,134,281,1067,2023-07-21,Second opinion,Pending,2025-02-25
+89,448,84,1295,2023-06-15,Lab work,Declined,
+90,85,614,3557,2025-04-19,Surgery,Completed,
+91,64,89,917,2025-10-15,Second opinion,Completed,
+92,294,573,2104,2022-10-08,Surgery,Pending,
+93,181,188,3004,2026-10-01,Consultation,Pending,
+94,539,137,3188,2022-11-20,Lab work,Accepted,
+95,562,562,3527,2022-10-13,Second opinion,Pending,
+96,461,148,3609,2026-07-25,Surgery,Pending,
+97,108,211,1655,2022-10-27,Consultation,Completed,
+98,448,243,3628,2024-02-18,Transfer of care,Accepted,
+99,411,435,2114,2022-11-10,Second opinion,Accepted,
+100,11,362,550,2026-04-18,Consultation,Completed,
+101,185,432,4765,2023-02-22,Lab work,Pending,
+102,275,9,2976,2026-10-26,Surgery,Declined,
+103,231,17,2611,2024-02-06,Surgery,Pending,
+104,538,377,3656,2026-01-01,Lab work,Declined,
+105,82,576,3741,2024-04-16,Transfer of care,Declined,
+106,34,219,877,2024-10-31,Lab work,Accepted,2023-09-02
+107,83,389,3648,2022-02-08,Surgery,Declined,
+108,596,404,1712,2023-01-15,Surgery,Completed,
+109,457,520,4017,2024-03-11,Imaging,Declined,
+110,433,539,2752,2024-01-15,Surgery,Accepted,
+111,21,493,1961,2025-01-15,Transfer of care,Declined,
+112,261,437,840,2023-10-25,Consultation,Completed,
+113,575,316,3707,2022-03-14,Surgery,Completed,2024-06-21
+114,200,348,2670,2024-08-25,Surgery,Declined,
+115,589,589,1811,2022-03-20,Transfer of care,Pending,2026-09-09
+116,108,62,661,2025-12-07,Consultation,Accepted,
+117,140,129,3377,2025-12-05,Consultation,Pending,
+118,1,345,2417,2025-03-13,Consultation,Declined,
+119,340,568,4252,2025-12-25,Transfer of care,Accepted,
+120,296,491,767,2026-08-06,Transfer of care,Pending,
+121,259,318,4064,2022-04-23,Second opinion,Pending,2026-02-08
+122,391,398,1849,2025-01-23,Second opinion,Accepted,
+123,539,538,3995,2022-07-29,Second opinion,Completed,2025-03-26
+124,558,385,2405,2025-04-06,Lab work,Completed,
+125,459,541,4928,2023-08-09,Second opinion,Pending,
+126,70,226,4338,2026-09-09,Imaging,Accepted,
+127,444,61,1394,2023-05-08,Imaging,Declined,
+128,288,398,346,2023-03-11,Lab work,Declined,
+129,585,414,1516,2023-03-20,Transfer of care,Declined,2026-01-04
+130,612,337,469,2022-12-27,Lab work,Pending,2023-09-14
+131,247,330,2303,2026-06-24,Surgery,Completed,
+132,332,178,850,2022-11-16,Imaging,Accepted,
+133,435,599,2891,2026-01-27,Surgery,Accepted,
+134,11,185,2827,2024-05-07,Second opinion,Completed,2024-09-29
+135,80,167,4464,2024-01-09,Transfer of care,Accepted,2025-11-02
+136,402,72,1918,2024-07-06,Imaging,Pending,
+137,212,326,3085,2023-11-20,Lab work,Completed,
+138,197,242,3885,2022-09-25,Surgery,Pending,
+139,310,612,4768,2022-12-28,Transfer of care,Declined,
+140,312,356,2902,2022-12-21,Imaging,Pending,
+141,241,513,4567,2023-08-18,Consultation,Declined,2023-07-16
+142,386,235,514,2022-04-13,Surgery,Pending,
+143,105,-1,4004,2023-02-22,Imaging,Declined,
+144,260,178,718,2025-12-12,Transfer of care,Accepted,
+145,348,-1,2928,2025-01-05,Consultation,Pending,
+146,266,23,2027-07-30,2025-04-23,Consultation,Declined,2020-08-05
+147,133,128,1394,2022-02-16,Imaging,Declined,
+148,589,-1,2915,2024-10-20,Lab work,Pending,2023-01-02
+149,356,382,1198,2026-03-29,Second opinion,Declined,
+150,196,361,4668,2023-01-06,Transfer of care,Accepted,2023-01-26
+151,490,569,4180,2022-09-03,Imaging,Completed,
+152,203,462,941,2022-07-27,Consultation,Declined,
+153,267,600,315,2024-10-01,Consultation,Accepted,2023-04-29
+154,350,464,2679,2022-06-16,Transfer of care,Completed,
+155,384,151,49,2025-10-08,Second opinion,Completed,
+156,268,403,2016,2026-09-10,Imaging,Pending,2025-01-06
+157,25,511,749,2025-07-01,Transfer of care,Accepted,
+158,161,27,1296,2025-02-19,Transfer of care,Pending,2024-08-07
+159,22,409,1940,2023-01-02,Consultation,Declined,
+160,513,163,2399,2022-08-28,Imaging,Pending,2025-12-04
+161,159,509,558,2026-09-22,Transfer of care,Completed,2026-08-29
+162,290,593,2913,2022-10-25,Second opinion,Declined,
+163,190,-1,1076,2024-08-05,Second opinion,Declined,
+164,342,267,4198,2022-02-18,Imaging,Declined,
+165,223,364,1788,2025-06-08,Transfer of care,Declined,
+166,133,159,2672,2023-09-15,Transfer of care,Accepted,
+167,250,410,3095,2024-09-18,Surgery,Accepted,
+168,351,175,266,2022-05-24,Transfer of care,Declined,
+169,282,617,1501,2026-08-22,Lab work,Declined,
+170,553,8,1845,2026-01-03,Transfer of care,Completed,2023-04-29
+171,455,323,3210,2022-08-29,Lab work,Completed,
+172,426,74,1299,2024-10-27,Second opinion,Pending,
+173,502,219,2841,2023-08-15,Surgery,Declined,
+174,355,388,3994,2023-06-03,Imaging,Completed,2026-12-14
+175,494,386,2622,2022-08-30,Lab work,Pending,2023-04-23
+176,411,614,4071,2026-09-09,Second opinion,Completed,
+177,170,504,37,2025-12-31,Lab work,Accepted,2026-01-27
+178,456,466,2151,2023-01-31,Transfer of care,Completed,
+179,452,151,1836,2023-08-07,Surgery,Accepted,
+180,361,361,1204,2025-05-19,Transfer of care,Declined,
+181,463,250,3292,2023-09-28,Lab work,Declined,
+182,535,491,1746,2025-03-09,Second opinion,Pending,
+183,550,34,2513,2026-08-28,Consultation,Pending,2026-05-30
+184,39,90,1495,2025-04-20,Surgery,Completed,2026-03-06
+185,486,82,4587,2025-03-26,Imaging,Accepted,2025-06-18
+186,466,233,4157,2025-04-14,Lab work,Declined,
+187,270,90,2662,2025-08-02,Consultation,Completed,
+188,195,338,4223,2022-07-11,Second opinion,Pending,2026-03-02
+189,322,81,89,2026-12-25,Imaging,Declined,
+190,407,35,983,2025-07-31,Surgery,Accepted,
+191,68,315,1611,2025-01-12,Lab work,Declined,
+192,379,392,3122,2026-03-11,Imaging,Completed,
+193,157,207,3738,2025-10-15,Imaging,Declined,2026-07-20
+194,310,481,3051,2026-08-29,Transfer of care,Declined,
+195,265,227,4399,2022-04-22,Second opinion,Accepted,2025-07-22
+196,216,473,2455,2026-10-11,Lab work,Accepted,
+197,245,334,2987,2022-07-16,Lab work,Accepted,
+198,372,30,4610,2022-01-03,Surgery,Accepted,
+199,525,135,312,2025-11-22,Consultation,Pending,
+200,477,338,4976,2025-12-22,Lab work,Completed,
+201,429,3,-10,2026-05-10,Second opinion,Declined,
+202,509,70,0,2023-11-14,Transfer of care,Completed,
+203,84,371,88888,2026-11-26,Consultation,Completed,

@@ -1,0 +1,257 @@
+procedure_id,patient_id,code_id,admission_id,doctor_id,procedure_date,outcome,complications
+1,3102,31,163,619,2026-06-20,Partial,Anesthesia complication
+2,4036,33,320,605,2026-06-30,Complicated,None
+3,299,28,32,317,2026-03-02,Complicated,Perforation
+4,2031,15,,560,2022-09-04,Successful,Anesthesia complication
+5,3946,32,172,538,2022-05-15,Successful,Allergic reaction
+6,1105,18,,584,2026-03-01,Complicated,
+7,3821,22,,448,2026-07-01,Partial,None
+8,4388,16,267,224,2023-09-09,Complicated,Allergic reaction
+9,4305,32,55,370,2025-04-10,Complicated,Infection
+10,4674,19,,392,2022-03-18,Pending results,Anesthesia complication
+11,1533,15,154,48,2024-02-03,Pending results,Anesthesia complication
+12,2796,42,,226,2022-11-09,Successful,Bleeding
+13,118,29,186,433,2023-06-15,Partial,Perforation
+14,2634,999,253,502,2022-10-09,Successful,Bleeding
+15,1533,11,158,179,2024-12-17,Complicated,Bleeding
+16,4154,6,,99999,2022-09-20,Complicated,Infection
+17,4042,33,263,13,2024-08-14,Pending results,Allergic reaction
+18,725,25,344,167,2024-05-17,Partial,Anesthesia complication
+19,3746,39,140,14,2024-12-16,Complicated,None
+20,3737,17,78,166,2024-08-07,Partial,
+21,4177,6,,300,2025-03-28,Complicated,
+22,3147,30,160,102,2026-10-30,Partial,Infection
+23,2650,1,109,217,2023-11-28,Complicated,None
+24,1595,27,12,536,2024-04-02,Pending results,Bleeding
+25,3496,18,93,343,2023-10-28,Successful,Anesthesia complication
+26,2230,39,108,34,2023-02-28,Successful,
+27,4544,35,,328,2026-12-16,Partial,Perforation
+28,4203,36,266,242,2022-04-30,Complicated,Infection
+29,1382,31,,583,2024-06-17,Complicated,None
+30,1189,12,274,348,2025-04-25,Partial,Bleeding
+31,2374,13,,110,2022-04-29,Successful,Anesthesia complication
+32,3077,42,184,4,2025-01-08,Complicated,Anesthesia complication
+33,1515,8,51,464,2023-12-27,Partial,Allergic reaction
+34,1973,26,219,389,2024-07-17,Aborted,Perforation
+35,3838,32,,267,2024-10-26,Partial,Perforation
+36,3008,22,322,580,2025-06-26,Successful,Infection
+37,4174,42,,31,2025-04-04,Successful,
+38,2634,28,66,328,2024-05-12,Successful,
+39,4097,17,18,389,2025-07-10,Complicated,Allergic reaction
+40,1380,27,126,517,2023-10-16,Successful,Bleeding
+41,3763,16,282,396,2022-04-01,Partial,Allergic reaction
+42,1571,38,230,148,2022-02-04,Successful,Perforation
+43,2550,7,251,93,2023-06-29,Partial,Anesthesia complication
+44,1553,22,4,421,2026-12-15,Pending results,
+45,4510,1,231,408,2026-06-29,Partial,Allergic reaction
+46,915,19,197,496,2023-10-12,Complicated,
+47,247,18,290,137,2026-07-12,Aborted,Anesthesia complication
+48,768,11,87,446,2026-01-08,Complicated,Perforation
+49,624,43,21,176,2022-05-30,Complicated,Perforation
+50,4868,24,118,26,2023-02-19,Pending results,Infection
+51,669,31,51,104,2026-06-07,Complicated,None
+52,1181,39,235,385,2023-05-18,Pending results,Perforation
+53,2003,16,32,131,2025-07-01,Pending results,
+54,2701,40,142,63,2024-10-05,Partial,Bleeding
+55,1659,2,,182,2026-12-31,Pending results,None
+56,4346,17,77,160,2022-06-29,Complicated,Allergic reaction
+57,1042,13,119,322,2025-10-01,Aborted,Perforation
+58,3996,1,,302,2023-12-06,Complicated,Infection
+59,3967,20,108,347,2022-03-12,Successful,None
+60,3966,30,,176,2025-02-07,Aborted,Anesthesia complication
+61,444,10,206,207,2024-05-10,Successful,None
+62,3908,19,57,122,2024-01-04,Successful,Allergic reaction
+63,31,5,19,570,2023-07-23,Complicated,Allergic reaction
+64,4829,34,315,341,2023-05-02,Pending results,Bleeding
+65,4318,21,,441,2025-11-30,Complicated,Perforation
+66,1600,10,225,97,2026-02-23,Successful,Perforation
+67,2691,32,,323,2024-09-24,Partial,
+68,1812,39,191,400,2023-03-12,Pending results,Infection
+69,4803,8,,382,2026-07-15,Partial,Allergic reaction
+70,1494,38,272,312,2025-12-28,Successful,Anesthesia complication
+71,417,10,155,4,2026-09-13,Pending results,Bleeding
+72,2670,32,,145,2025-03-27,Successful,None
+73,3741,44,130,601,2022-12-15,Successful,Perforation
+74,3350,15,141,473,2022-08-27,Partial,None
+75,2670,29,294,315,2025-11-12,Successful,Infection
+76,4563,23,,306,2022-05-04,Successful,Bleeding
+77,2878,39,31,201,2024-12-27,Successful,Bleeding
+78,3315,24,,17,2023-11-10,Pending results,Allergic reaction
+79,2510,39,,483,2022-10-19,Pending results,Allergic reaction
+80,3246,4,295,284,2023-12-29,Pending results,
+81,3727,14,252,174,2026-04-18,Successful,None
+82,4062,8,233,441,2026-11-11,Partial,None
+83,2679,11,322,40,2026-02-20,Pending results,Anesthesia complication
+84,1782,19,280,84,2022-03-24,Successful,None
+85,2697,14,119,474,2024-09-13,Successful,Bleeding
+86,3128,2,287,606,2024-07-16,Successful,Bleeding
+87,4395,28,331,478,2025-04-11,Partial,
+88,4456,27,290,577,2026-03-12,Complicated,Anesthesia complication
+89,688,32,252,374,2024-02-22,Aborted,
+90,3931,26,75,572,2023-02-14,Aborted,
+91,813,24,318,254,2022-11-27,Partial,Perforation
+92,2426,28,,510,2026-11-27,Aborted,None
+93,4232,3,83,454,2026-01-13,Pending results,
+94,3095,19,28,431,2022-06-23,Successful,Allergic reaction
+95,3358,28,306,373,2022-07-13,Pending results,Infection
+96,3960,45,8,276,2019-10-16,Complicated,
+97,1544,35,300,201,2022-08-21,Aborted,
+98,1467,4,102,558,2025-05-12,Aborted,Infection
+99,281,28,55,99999,2022-12-10,Partial,
+100,4398,1,252,396,2024-03-17,Pending results,Infection
+101,2335,40,249,430,2025-10-04,Pending results,None
+102,1573,9,,237,2026-11-29,Successful,Infection
+103,1029,28,58,38,2026-06-18,Successful,None
+104,67,10,81,423,2023-04-20,Partial,None
+105,2978,3,88,491,2024-12-17,Complicated,Anesthesia complication
+106,4079,42,245,299,2026-12-31,Pending results,
+107,383,27,,495,2023-05-17,Complicated,Allergic reaction
+108,2627,34,36,128,2023-07-19,Complicated,
+109,4464,25,71,187,2022-03-25,Successful,Perforation
+110,3476,15,189,373,2024-02-04,Aborted,Infection
+111,674,31,,202,2022-03-24,Aborted,Infection
+112,2360,3,113,604,2026-07-22,Successful,Anesthesia complication
+113,2242,32,143,62,2023-02-08,Successful,
+114,3458,34,84,288,2023-08-20,Partial,
+115,1908,44,236,440,2024-09-19,Aborted,Perforation
+116,2182,23,141,390,2023-04-02,Partial,None
+117,3239,35,,555,2025-08-14,Pending results,Bleeding
+118,878,11,,499,2022-10-12,Partial,None
+119,492,999,298,140,2023-04-16,Successful,Anesthesia complication
+120,4418,7,285,607,2025-12-28,Aborted,Bleeding
+121,936,24,246,366,2025-02-09,Pending results,Infection
+122,112,34,191,172,2023-09-03,Successful,Perforation
+123,1547,38,189,460,2024-11-08,Partial,Bleeding
+124,2942,2,29,312,2025-09-24,Complicated,Anesthesia complication
+125,3539,10,134,284,2022-06-12,Aborted,Bleeding
+126,2652,999,109,367,2023-10-13,Partial,Allergic reaction
+127,1612,20,,556,2024-10-08,Aborted,Allergic reaction
+128,2217,39,40,233,2024-12-11,Aborted,Bleeding
+129,448,13,268,132,2025-12-10,Pending results,Allergic reaction
+130,2472,15,125,332,2023-06-02,Successful,
+131,3665,24,,283,2019-03-09,Successful,Allergic reaction
+132,4155,39,212,366,2022-04-23,Partial,Infection
+133,3238,30,,204,2025-04-12,Aborted,Perforation
+134,1743,44,118,556,2022-12-12,Successful,Anesthesia complication
+135,2286,14,178,574,2023-06-02,Partial,Allergic reaction
+136,2201,14,318,511,2022-07-31,Aborted,Anesthesia complication
+137,1946,24,117,583,2026-09-09,Pending results,
+138,516,37,330,547,2024-02-08,Partial,Infection
+139,4555,27,13,279,2026-03-03,Successful,None
+140,3324,7,,597,2026-08-12,Aborted,None
+141,3234,19,254,109,2024-04-13,Aborted,Allergic reaction
+142,4504,22,143,55,2022-12-20,Complicated,Anesthesia complication
+143,3037,44,,149,2019-04-19,Pending results,Anesthesia complication
+144,2949,45,265,517,2023-12-12,Pending results,Anesthesia complication
+145,2365,23,,364,2023-05-29,Successful,Perforation
+146,4798,29,,13,2023-03-04,Successful,Infection
+147,2535,37,144,389,2024-02-10,Pending results,Perforation
+148,2853,8,327,171,2023-12-20,Successful,Allergic reaction
+149,3163,34,,96,2026-07-04,Successful,Infection
+150,2117,28,,143,2026-12-26,Complicated,Bleeding
+151,4864,29,,374,2026-08-04,Complicated,
+152,1360,1,,270,2024-02-12,Complicated,Anesthesia complication
+153,3914,21,,564,2025-03-23,Aborted,None
+154,2669,27,,201,2026-03-08,Pending results,Perforation
+155,2904,19,114,207,2026-02-09,Successful,Perforation
+156,2537,13,51,426,2024-12-18,Successful,
+157,1910,39,,32,2024-05-29,Partial,Bleeding
+158,4991,43,,77,2024-05-09,Aborted,None
+159,15,6,,332,2020-05-27,Aborted,Anesthesia complication
+160,2364,17,133,201,2024-03-10,Partial,Anesthesia complication
+161,939,20,168,163,2023-06-15,Complicated,Anesthesia complication
+162,799,44,282,220,2025-01-18,Partial,Infection
+163,4829,10,,440,2023-01-04,Successful,Anesthesia complication
+164,4062,1,56,164,2023-11-06,Partial,Allergic reaction
+165,2922,21,,169,2023-04-09,Successful,
+166,739,999,125,427,2022-11-07,Aborted,Allergic reaction
+167,664,34,258,160,2022-01-13,Successful,Allergic reaction
+168,1615,18,142,354,2026-05-23,Successful,Allergic reaction
+169,3591,9,111,367,2026-04-09,Successful,
+170,2758,8,,91,2023-02-20,Partial,Perforation
+171,1110,45,,56,2022-05-08,Complicated,Infection
+172,3255,14,,359,2022-07-03,Partial,Allergic reaction
+173,2798,15,270,424,2022-10-11,Complicated,Infection
+174,100,3,60,123,2023-07-29,Successful,Allergic reaction
+175,1497,36,163,188,2023-08-27,Aborted,Perforation
+176,4238,7,,224,2026-07-10,Pending results,Bleeding
+177,2778,5,261,173,2025-07-05,Successful,Bleeding
+178,1382,34,157,333,2026-05-12,Pending results,Infection
+179,2220,44,221,554,2026-11-15,Aborted,Anesthesia complication
+180,1227,28,,429,2024-08-02,Successful,Allergic reaction
+181,3672,11,,252,2024-11-15,Aborted,Anesthesia complication
+182,1720,45,158,19,2026-07-17,Successful,
+183,3223,30,30,239,2022-10-02,Pending results,Bleeding
+184,2382,32,,539,2024-03-13,Pending results,Perforation
+185,3198,5,,379,2022-05-23,Pending results,Allergic reaction
+186,4987,36,130,284,2022-05-05,Successful,Anesthesia complication
+187,2417,19,159,514,2024-01-13,Pending results,Perforation
+188,4469,14,,164,2023-05-16,Successful,Allergic reaction
+189,408,36,269,258,2024-10-02,Partial,Perforation
+190,3704,1,94,79,2022-12-01,Partial,Allergic reaction
+191,3994,31,,101,2025-11-14,Partial,
+192,1691,3,57,275,2023-03-19,Pending results,Perforation
+193,1302,15,285,234,2024-01-29,Complicated,Infection
+194,1820,44,,385,2026-03-31,Pending results,Perforation
+195,433,8,191,105,2024-05-16,Aborted,None
+196,1222,39,,85,2026-09-29,Aborted,Allergic reaction
+197,2763,2,,57,2026-05-14,Partial,Allergic reaction
+198,3466,1,,205,2022-09-05,Aborted,Perforation
+199,2388,13,84,369,2026-12-10,Partial,
+200,805,5,55,195,2025-06-17,Complicated,Allergic reaction
+201,4094,37,,541,2025-06-07,Successful,Perforation
+202,1029,28,,390,2025-03-03,Successful,Perforation
+203,110,2,39,364,2025-01-24,Partial,None
+204,4012,4,292,451,2023-08-08,Pending results,Allergic reaction
+205,3245,27,,136,2025-02-22,Partial,Anesthesia complication
+206,3419,19,97,176,2024-05-08,Partial,Anesthesia complication
+207,1041,14,343,196,2026-06-09,Pending results,Perforation
+208,1028,12,,356,2026-05-12,Pending results,Perforation
+209,2791,35,110,434,2023-10-09,Partial,
+210,4408,40,35,148,2024-04-17,Complicated,Allergic reaction
+211,243,24,172,232,2023-10-10,Partial,
+212,4311,37,,582,2022-02-01,Pending results,Anesthesia complication
+213,364,16,322,181,2026-02-03,Complicated,None
+214,4846,19,189,481,2026-03-20,Pending results,Perforation
+215,1708,14,,563,2024-09-05,Pending results,Allergic reaction
+216,4627,23,,477,2025-12-18,Pending results,Infection
+217,4066,999,344,419,2024-12-11,Partial,Perforation
+218,60,24,349,245,2024-10-06,Aborted,Bleeding
+219,1897,35,228,492,2022-10-16,Pending results,Anesthesia complication
+220,1568,11,103,560,2025-11-23,Pending results,Infection
+221,1468,37,238,184,2019-05-16,Successful,Bleeding
+222,4867,28,179,597,2026-10-28,Pending results,Bleeding
+223,4855,20,160,242,2022-02-26,Successful,Bleeding
+224,662,43,27,498,2024-02-23,Aborted,None
+225,2455,3,17,477,2023-04-14,Aborted,Perforation
+226,3718,6,,445,2022-06-20,Pending results,Perforation
+227,1335,29,333,97,2026-05-14,Aborted,None
+228,1277,23,215,317,2024-02-07,Partial,None
+229,3068,7,129,559,2025-08-18,Aborted,
+230,1970,26,33,244,2023-06-11,Aborted,Perforation
+231,3155,45,,30,2025-06-18,Complicated,Infection
+232,2081,37,66,464,2022-04-19,Complicated,Infection
+233,3061,14,242,40,2025-10-19,Pending results,Allergic reaction
+234,4171,45,,328,2025-01-23,Aborted,
+235,3186,37,,67,2024-05-17,Aborted,Perforation
+236,1137,13,,342,2024-01-10,Partial,
+237,2640,21,,10,2023-10-26,Complicated,None
+238,1633,44,,57,2024-04-22,Pending results,
+239,2419,23,,587,2023-08-16,Complicated,None
+240,2873,23,162,431,2024-03-22,Complicated,
+241,3537,42,87,202,2026-02-13,Complicated,Infection
+242,357,28,60,438,2025-12-31,Complicated,Infection
+243,3935,27,,174,2026-07-27,Complicated,None
+244,1260,31,157,51,2025-05-01,Successful,Infection
+245,4290,44,91,303,2022-01-19,Partial,None
+246,3896,37,205,236,2023-10-02,Successful,Allergic reaction
+247,1448,20,,162,2024-09-04,Complicated,Perforation
+248,3002,39,,100,2026-03-11,Pending results,
+249,706,44,201,619,2022-03-08,Pending results,Bleeding
+250,122,20,,520,2024-06-30,Pending results,Allergic reaction
+251,99999,1,,474,2026-03-18,Successful,Anesthesia complication
+252,-1,12,,20,2025-10-02,Partial,Perforation
+253,-2,30,,203,2025-09-09,Unsuccessful,Anesthesia complication
+254,-3,40,,62,2023-09-23,Complicated,Perforation
+255,-4,14,,319,2026-11-02,Partial,Anesthesia complication
+256,-5,32,,332,2026-06-02,Successful,Anesthesia complication

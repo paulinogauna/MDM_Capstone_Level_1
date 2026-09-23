@@ -1,0 +1,2 @@
+We expect all capstone-related analysis and design activities to be completed by 30th September, followed by an evaluation. Final presentations will be scheduled in early October before SMEs, experts, and leadership.
+Please use the provided dataset as the basis for your analysis and recommendations. More details on evaluation criteria and presentation expectations will be shared separately.

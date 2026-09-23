@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "editor.formatOnSave": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "jupyter.askForKernelRestart": false,
+  "yaml.validate": true,
+  "search.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true
+  }
+}

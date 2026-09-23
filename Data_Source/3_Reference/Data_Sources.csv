@@ -1,0 +1,11 @@
+source_id,source_name,source_type,system_vendor,data_domain,refresh_frequency,trust_score,last_sync_date,record_count_approx,data_quality_score,is_active,ingress_method,owner_team
+1,EMR_Epic,Electronic Health Record,Epic Systems,Clinical,Real-time,90,2026-09-14,5000,88,True,API,Clinical IT
+2,EMR_Cerner,Electronic Health Record,Oracle Health,Clinical,Real-time,75,2026-09-14,3200,72,True,API,Clinical IT
+3,RegistrationDB,Patient Registration,Custom,Administrative,Daily Batch,60,2026-09-13,4800,65,True,File Import,Registration
+4,ManualEntry,Manual Data Entry,B360 Console,Mixed,On-demand,40,2026-09-14,1500,45,True,UI,Data Stewards
+5,Legacy_HIS,Hospital Information,Siemens,Administrative,Weekly,30,2026-09-07,2000,35,False,Batch ETL,IT Operations
+6,Lab_System,Laboratory Info,Sunquest,Clinical,Real-time,85,2026-09-14,1200,82,True,HL7,Lab IT
+7,Pharmacy_System,Pharmacy Mgmt,McKesson,Clinical,Real-time,80,2026-09-14,800,78,True,API,Pharmacy IT
+8,Billing_System,Revenue Cycle,Optum,Financial,Daily Batch,70,2026-09-13,600,68,True,File Import,Revenue Cycle
+9,Insurance_Portal,Payer Portal,Multiple,Financial,Daily Batch,55,2026-09-13,400,52,True,Web Scraping,Revenue Cycle
+10,Patient_Portal,Patient App,Epic MyChart,Demographics,Real-time,65,2026-09-14,3500,60,True,API,Digital Health

@@ -1,0 +1,22 @@
+department_id,department_name,head_doctor_id,subhead_doctor_id,num_employees,num_operating_theatres,num_inpatient_beds,num_outpatient_beds,floor_location,wing,phone_extension,established_year,annual_budget_usd,head_nurse_name,has_icu,avg_daily_patients,operating_hours
+1,Internal Med,70,999,63,5,33,0,8th,North,2500,2015,2617511,Charles,False,54,8:00-17:00
+2,Pediatrics,592,464,41,5,36,20,3rd,East,2500,1986,9858035,Michael,True,91,8:00-20:00
+3,Family Med,12,309,40,7,9,16,2nd,Main,9728,1971,6007241,Nancy,False,44,8:00-20:00
+4,Cardiology,374,120,109,3,57,12,4th,North,9884,1981,4298466,William,False,73,8:00-17:00
+5,Orthopedics,317,110,64,4,37,14,2nd,East,8776,2023,7117636,William,False,46,24/7
+6,Neurology,999,156,49,1,35,19,2nd,Central,8001,2006,991910,William,False,40,8:00-20:00
+7,Dermatology,253,352,56,1,41,14,3rd,East,3972,1960,11108922,Laura,False,66,24/7 On-call
+8,Ophthalmology,609,264,51,6,7,14,3rd,North,3217,1998,4769082,Nancy,False,51,8:00-20:00
+9,ENT,8,616,13,4,43,20,6th,South,5658,1979,12971513,Charles,True,73,8:00-17:00
+10,Gastro,439,378,53,6,28,29,Ground,West,4874,1992,933497,Karen,False,54,24/7
+11,Pulmonology,582,370,36,1,24,17,7th,South,7681,1969,9601376,Thomas,True,7,8:00-17:00
+12,Endocrinology,68,361,27,3,29,21,3rd,South,1510,2004,7733497,Laura,True,62,8:00-20:00
+13,Rheumatology,156,-1,6,8,56,19,5th,Main,7903,1960,14783016,Betty,False,68,24/7 On-call
+14,Nephrology,102,410,63,7,39,15,7th,Central,9177,1982,7729807,Joseph,False,50,6:00-22:00
+15,Oncology,308,258,61,1,49,14,5th,North,4846,1998,6510380,Laura,True,86,24/7 On-call
+16,Psychiatry,391,15,55,3,28,5,5th,South,5592,1961,14910902,Thomas,True,37,24/7 On-call
+17,Urology,355,-1,53,4,56,28,8th,North,2025,2023,1035911,Betty,False,52,6:00-22:00
+18,Gynecology,566,586,45,3,31,12,8th,North,2445,1995,3595298,William,False,45,8:00-20:00
+19,General Surgery,97,321,55,2,23,14,5th,Central,1846,1800,10210172,Betty,False,73,8:00-17:00
+20,Emergency Med,888,350,63,6,41,29,4th,North,4141,1960,6446989,William,False,17,24/7 On-call
+21,Radiology,888,553,19,1,9,13,Ground,South,8411,2001,7001899,,True,26,24/7

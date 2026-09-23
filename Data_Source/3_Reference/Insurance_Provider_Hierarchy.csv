@@ -1,0 +1,46 @@
+provider_id,provider_name,parent_provider_id,tier,region,plan_type,headquarters_state,is_active,negotiation_group
+1,CVS Health Group,,1,National,Holding,RI,True,CVS Network
+2,UnitedHealth Group,,1,National,Holding,MN,True,UHG Network
+3,Cigna Group,,1,National,Holding,CT,True,Cigna Network
+4,Elevance Health,,1,National,Holding,IN,True,Elevance Network
+5,Humana Inc.,,1,National,Holding,KY,True,Humana Network
+6,Centene Corporation,,1,National,Holding,MO,True,Centene Network
+7,Molina Healthcare,,1,National,Holding,CA,True,Molina Network
+8,Highmark Health,,1,Regional,Holding,PA,True,Highmark Regional
+9,Geisinger Health,,1,Regional,Holding,PA,True,Geisinger Regional
+10,Tufts Health Plan,,1,Regional,Holding,MA,True,Tufts Regional
+11,Aetna,2,2,National,Commercial,CT,True,UHG Network
+12,UnitedHealthcare,2,2,National,Commercial,MN,True,UHG Network
+13,Oxford Health Plans,2,2,Northeast,Commercial,CT,True,UHG Network
+14,Cigna HealthCare,3,2,National,Commercial,CT,True,Cigna Network
+15,Cigna,3,2,National,Commercial,CT,True,Cigna Network
+16,Anthem,4,2,National,Commercial,IN,True,Elevance Network
+17,Blue Cross Blue Shield,4,2,National,Commercial,IN,True,Elevance Network
+18,Independence Blue Cross,8,2,Mid-Atlantic,Commercial,PA,True,Highmark Regional
+19,CareFirst,8,2,Mid-Atlantic,Commercial,MD,True,Highmark Regional
+20,Harvard Pilgrim,10,2,New England,Commercial,MA,True,Tufts Regional
+21,Aetna Choice POS II,11,3,National,POS,CT,True,UHG Network
+22,Aetna Open Access Elect,11,3,National,HMO,CT,True,UHG Network
+23,UHC Choice Plus,12,3,National,PPO,MN,True,UHG Network
+24,UHC Navigate HMO,12,3,National,HMO,MN,True,UHG Network
+25,Cigna Open Access Plus,14,3,National,PPO,CT,True,Cigna Network
+26,Cigna LocalPlus,14,3,National,HMO,CT,True,Cigna Network
+27,Anthem Blue Access PPO,16,3,National,PPO,IN,True,Elevance Network
+28,Anthem Pathway HMO,16,3,National,HMO,IN,True,Elevance Network
+29,BCBS Blue PPO,17,3,National,PPO,IL,True,Elevance Network
+30,BCBS Blue HMO,17,3,National,HMO,IL,True,Elevance Network
+31,Humana Gold Plus HMO,5,3,National,HMO,KY,True,Humana Network
+32,Humana Choice PPO,5,3,National,PPO,KY,True,Humana Network
+33,Oscar Health Plan,2,3,Select,EPO,NY,True,UHG Network
+34,Bright Health Plan,6,3,Select,HMO,MN,True,Centene Network
+35,Health Net CommunityCare,7,3,West,HMO,CA,True,Molina Network
+36,Molina Marketplace,7,3,National,HMO,CA,True,Molina Network
+37,MetLife Dental,1,3,National,Dental,NY,False,CVS Network
+38,Geisinger Gold,9,3,Pennsylvania,HMO,PA,True,Geisinger Regional
+39,Highmark BCBS PPO,8,3,Pennsylvania,PPO,PA,True,Highmark Regional
+40,Tufts Health Together,10,3,New England,Medicaid,MA,True,Tufts Regional
+41,Ghost Insurance Co,9999,2,Unknown,Unknown,XX,True,Ghost Network
+42,Fake Regional,21,1,National,Holding,XX,True,Fake Network
+43,SelfRef Insurance,43,2,Unknown,Unknown,XX,True,Self Network
+44,Dead Insurance,3,2,National,Commercial,XX,False,Dead Network
+45,Dead Plan A,44,3,National,PPO,XX,True,Dead Network

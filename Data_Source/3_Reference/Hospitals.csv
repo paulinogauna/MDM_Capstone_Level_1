@@ -1,0 +1,26 @@
+hospital_id,hospital_name,hospital_type,address,city,state,zip_code,phone_number,total_beds,accreditation,established_year,emergency_avail
+1,St. Luke's,General,9304 Maple Dr,Los Angeles,CA,90001,(566) 271-2875,96,JCI,1984,True
+2,University MC,Clinic,6860 Washington Ave,Chicago,IL,60601,(566) 271-2875,242,DNV GL,1981,True
+3,Community Health,Teaching,7666 Broadway,Houston,TX,77001,(913) 481-3908,358,None,1978,True
+4,Valley Presbyterian,Specialty,4798 Oak Ave,Phoenix,AZ,85001,(280) 646-3217,216,JCI,2007,True
+5,Cedar Sinai,Teaching,7507 Elm St,Philly,PA,19101,(278) 699-4150,310,None,1986,True
+6,Northwestern Memorial,Clinic,876 Washington Ave,San Antonio,TX,78201,(509) 718-5411,81,The Joint Commission,2020,True
+7,Mayo Clinic,General,3874 Lake Dr,San Diego,CA,92101,(216) 380-1219,253,ACHC,1969,True
+8,Cleveland Clinic,General,7742 Oak Ave,Dallas,TX,75201,(601) 298-9948,251,None,1998,False
+9,Johns Hopkins,Teaching,827 Maple Dr,San Jose,CA,95101,(665) 314-2764,154,The Joint Commission,1997,True
+10,Mass General,General,7938 Maple Dr,Austin,TX,73301,(287) 441-4645,130,AAAHC,1973,True
+11,UCLA MC,General,2547 Broadway,Jax,FL,32201,(554) 215-1943,247,JCI,1950,True
+12,Stanford Health,Clinic,6876 Oak Ave,Fort Worth,TX,76101,(713) 236-4341,203,None,1984,True
+13,NYU Langone,Teaching,6152 Elm St,Columbus,OH,43201,(277) 281-2312,186,JCI,2001,False
+14,Mount Sinai,Specialty,7715 Maple Dr,Charlotte,NC,28201,(921) 851-1496,495,The Joint Commission,1991,True
+15,Beth Israel,General,5809 Pine St,Indy,IN,46201,(335) 572-3754,282,JCI,1975,True
+16,Brigham & Women's,Rehabilitation,7827 Park Blvd,SF,CA,94101,(658) 992-7654,10,JCI,1989,False
+17,Duke University,General,6265 Main St,Seattle,WA,98101,(208) 983-1592,119,None,1983,True
+18,Ronald Reagan,Rehabilitation,1501 Hill St,Denver,CO,80201,(301) 780-4771,435,JCI,1800,True
+19,Barnes-Jewish,Rehabilitation,8362 Elm St,Nashville,TN,37201,(569) 591-2884,169,The Joint Commission,2005,True
+20,Vanderbilt MC,Children's,3046 Oak Ave,OKC,OK,73101,(262) 217-8512,10,ACHC,1959,True
+21,UPMC Presbyterian,General,7417 Cedar Ln,DC,DC,20001,(573) 404-6535,254,JCI,1974,False
+22,Houston Methodist,Clinic,6239 Lake Dr,Boston,MA,02101,(835) 910-5505,98,None,1999,True
+23,Texas Health,Teaching,8895 Pine St,Memphis,TN,38101,(556) 983-1183,107,The Joint Commission,2004,True
+24,Banner University,Teaching,3905 Broadway,Portland,OR,97201,(600) 339-6951,151,JCI,1997,True
+25,UC Davis MC,Children's,6849 River Rd,Vegas,NV,89101,(873) 450-1685,479,None,1982,False

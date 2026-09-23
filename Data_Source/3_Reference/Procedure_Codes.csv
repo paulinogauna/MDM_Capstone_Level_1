@@ -1,0 +1,50 @@
+code_id,procedure_name,parent_code_id,category,description
+1,Surgery,,Surgical,All surgical procedures
+2,Cardiothoracic,3,Surgical,Heart & lung surgery
+3,CABG,2,Surgical,Coronary artery bypass graft
+4,Valve Replacement,999,Surgical,Heart valve replacement
+5,Lobectomy,2,Surgical,Lung lobe removal
+6,Orthopedic,1,Surgical,Bone & joint surgery
+7,Total Hip Arthroplasty,6,Surgical,Hip replacement
+8,Total Knee Arthroplasty,6,Surgical,Knee replacement
+9,Spinal Fusion,6,Surgical,Spine fusion
+10,General Surgery,1,Surgical,General surgical procedures
+11,Appendectomy,10,Surgical,Appendix removal
+12,Cholecystectomy,10,Surgical,Gallbladder removal
+13,Hernia Repair,10,Surgical,Hernia repair
+14,Neurosurgery,1,Surgical,Brain & spine surgery
+15,Craniotomy,14,Surgical,Skull opening
+16,Laminectomy,14,Surgical,Spinal decompression
+17,Imaging,,Diagnostic,Radiology & imaging
+18,MRI,17,Diagnostic,Magnetic resonance imaging
+19,CT Scan,17,Diagnostic,Computed tomography
+20,X-Ray,17,Diagnostic,Radiography
+21,Ultrasound,17,Diagnostic,Sonography
+22,Cardiology,17,Diagnostic,Cardiac imaging
+23,Echocardiogram,22,Diagnostic,Heart ultrasound
+24,Stress Test,22,Diagnostic,Cardiac stress testing
+25,Angiography,22,Diagnostic,Coronary angiography
+26,Endoscopy,,Diagnostic,Internal examination
+27,Colonoscopy,26,Diagnostic,Colon examination
+28,Gastroscopy,26,Diagnostic,Upper GI endoscopy
+29,Bronchoscopy,26,Diagnostic,Airway examination
+30,Pathology,,Laboratory,Lab tissue analysis
+31,Biopsy,30,Laboratory,Tissue sample analysis
+32,Blood Panel,30,Laboratory,Complete blood work
+33,Genetic Testing,30,Laboratory,DNA/RNA analysis
+34,Immunology,30,Laboratory,Immune system tests
+35,Therapeutic,,Treatment,Treatment procedures
+36,Radiation Therapy,35,Treatment,Cancer radiation
+37,Chemotherapy,35,Treatment,Cancer drug therapy
+38,Dialysis,35,Treatment,Kidney dialysis
+39,Physical Therapy,35,Treatment,Rehabilitation
+40,Blood Transfusion,35,Treatment,Blood product infusion
+41,Vaccination,35,Treatment,Immunization
+42,Anesthesia,,Support,Anesthesia services
+43,General Anesthesia,42,Support,Full sedation
+44,Regional Anesthesia,999,Support,Localized numbing
+45,Conscious Sedation,42,Support,Light sedation
+999,Mystery Procedure,42,Unknown,Unknown - needs classification
+50,Imaging,,Diagnostic,Imaging procedures (disconnected root)
+51,X-Ray,50,Diagnostic,X-Ray imaging
+52,MRI Scan,50,Diagnostic,MRI imaging

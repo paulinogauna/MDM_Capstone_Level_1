@@ -1,0 +1,623 @@
+doctor_id,first_name,last_name,specialization,license_number,email,phone_number,years_exp,hospital_id,department_id,consultation_fee,rating
+1,Lisa,Williams,Oncology,MD-904344,lisa.williams.1@hosp.example.com,(920) 728-3474,13,7,13,197.04,3.5
+2,Emily,Perez,Internal Med,MD-509119,emily.perez.2@hosp.example.com,(943) 667-5586,19,17,7,335.15,4.2
+3,Thomas,Thompson,Internal Med,MD-904344,thomas.thompson.3@hosp.example.com,(795) 546-1672,19,8,19,188.65,4.5
+4,Emily,Harris,General Surgery,MD-794315,emily.harris.4@hosp.example.com,(453) 588-1884,6,1,11,187.16,4.4
+5,James,Sanchez,Rheumatology,MD-218269,james.sanchez.5@hosp.example.com,(584) 784-2971,24,3,8,509.46,3.5
+6,Susan,Thomas,General Surgery,MD-355347,susan.thomas.6@hosp.example.com,(368) 542-7570,12,20,3,387.32,4.3
+7,Betty,Harris,Endocrinology,MD-260896,betty.harris.7@hosp.example.com,(329) 943-2166,6,4,8,76.84,4.1
+8,David,Martinez,Psychiatry,MD-359655,david.martinez.8@hosp.example.com,(717) 847-6139,20,1,5,251.94,3.2
+9,David,White,Orthopedics,MD-587424,david.white.9@hosp.example.com,(768) 843-7774,10,10,3,432.7,2.9
+10,Edward,Williams,Gastro,MD-196273,edward.williams.10@hosp.example.com,(948) 373-2171,33,15,1,175.04,4
+11,David,Brown,Gynecology,MD-110733,david.brown.11@hosp.example.com,(552) 968-9036,3,2,19,568.62,4.3
+12,Joseph,Davis,Orthopedics,MD-540253,joseph.davis.12@hosp.example.com,(319) 429-1555,18,12,6,385.66,4.5
+13,Robert,Thomas,Neurology,MD-346230,robert.thomas.13@hosp.example.com,(493) 279-9373,39,13,11,258.82,3.2
+14,Margaret,Davis,Pulmonology,MD-347496,margaret.davis.14@hosp.example.com,(369) 455-5280,12,5,21,150.63,4
+15,Kimberly,White,Gynecology,MD-988393,kimberly.white.15@hosp.example.com,(548) 568-8586,15,18,5,111.66,3.4
+16,Margaret,Sanchez,Orthopedics,MD-553826,,(320) 286-9825,14,19,3,246.53,3.5
+17,Margaret,Lee,Gastro,MD-719324,margaret.lee.17@hosp.example.com,(557) 844-1569,6,25,3,441.11,4.8
+18,Christopher,White,Cardiology,MD-988710,christopher.white.18@hosp.example.com,(984) 355-8784,21,24,6,143.82,3.8
+19,Lisa,Jones,Gastro,MD-634353,lisa.jones.19@hosp.example.com,(814) 358-4157,9,14,20,215.89,4
+20,Kenneth,Thomas,Family Med,MD-541387,kenneth.thomas.20@hosp.example.com,(388) 991-4604,28,23,9,251.12,4
+21,Jessica,Anderson,Rheumatology,MD-723083,jessica.anderson.21@hosp.example.com,(499) 257-2185,13,12,18,50.46,4.3
+22,Richard,Davis,General Surgery,MD-101596,richard.davis.22@hosp.example.com,(205) 207-2009,18,17,10,285.46,2.8
+23,George,Moore,Ophthalmology,MD-600450,george.moore.23@hosp.example.com,(879) 903-4464,19,14,18,183.07,3
+24,William,Garcia,Pediatrics,MD-502517,william.garcia.24@hosp.example.com,(978) 296-8249,17,13,3,208.24,2.9
+25,George,Williams,Gynecology,MD-357600,george.williams.25@hosp.example.com,(326) 634-2350,18,12,1,333.66,4.6
+26,Dorothy,Moore,Psychiatry,MD-669271,dorothy.moore.26@hosp.example.com,(498) 669-1782,32,4,3,174.32,3.2
+27,James,Jones,Cardiology,MD-548489,james.jones.27@hosp.example.com,(336) 246-8871,1,23,8,190.88,4.9
+28,Lisa,Jones,Rheumatology,MD-656764,lisa.jones.28@hosp.example.com,(809) 505-7176,1,5,2,198.09,2.5
+29,Nancy,Thomas,Psychiatry,MD-224462,nancy.thomas.29@hosp.example.com,(812) 365-9030,19,6,13,247.85,4
+30,Thomas,Clark,ENT,MD-520211,thomas.clark.30@hosp.example.com,(661) 379-1324,11,17,5,389.22,5
+31,Karen,Lopez,Pulmonology,MD-818739,karen.lopez.31@hosp.example.com,(335) 810-2578,30,8,11,201.74,4.4
+32,Donald,Lee,Radiology,MD-668421,donald.lee.32@hosp.example.com,(991) 653-4042,23,22,21,92.33,4.3
+33,Daniel,Martin,Cardiology,MD-589806,,(950) 962-2763,11,1,13,275.53,3.1
+34,Emily,Gonzalez,Endocrinology,MD-926270,emily.gonzalez.34@hosp.example.com,(836) 971-7162,0,14,16,210.14,4
+35,Emily,Perez,ENT,MD-272555,emily.perez.35@hosp.example.com,(644) 324-8923,21,10,6,322.26,4.9
+36,Christopher,Johnson,Pediatrics,MD-586216,christopher.johnson.36@hosp.example.com,(699) 877-8746,5,23,5,187.72,3.8
+37,Edward,Harris,Orthopedics,MD-821690,edward.harris.37@hosp.example.com,(606) 600-1141,33,2,4,121.51,4
+38,Richard,Martin,Ophthalmology,MD-591926,richard.martin.38@hosp.example.com,(898) 251-9089,9,19,7,401.54,4.1
+39,Thomas,Davis,Pulmonology,MD-231208,thomas.davis.39@hosp.example.com,(247) 222-4770,14,17,19,117.1,4.3
+40,Betty,Moore,Emergency Med,MD-450201,betty.moore.40@hosp.example.com,(431) 402-2740,33,9,6,196.83,3.9
+41,Patricia,White,Nephrology,MD-346603,patricia.white.41@hosp.example.com,(890) 567-9577,6,19,10,215.43,4
+42,Susan,Anderson,Pulmonology,MD-450864,susan.anderson.42@hosp.example.com,(700) 753-6874,21,12,8,334.66,4.1
+43,Mark,Gonzalez,Nephrology,MD-335957,mark.gonzalez.43@hosp.example.com,(213) 869-7776,15,20,16,312.63,4.2
+44,Betty,Martin,Dermatology,MD-645721,betty.martin.44@hosp.example.com,(524) 334-6844,14,1,6,333.18,4
+45,David,Harris,Nephrology,MD-155879,david.harris.45@hosp.example.com,(328) 684-2315,1,10,15,467.28,4.1
+46,Thomas,Davis,Gynecology,MD-314210,thomas.davis.46@hosp.example.com,(298) 919-1145,19,20,5,307.85,3.8
+47,Mark,Williams,Orthopedics,MD-515187,mark.williams.47@hosp.example.com,(980) 399-6373,27,19,9,299.92,3.9
+48,Jessica,Lee,Pulmonology,MD-677768,jessica.lee.48@hosp.example.com,(742) 571-7682,19,23,4,26.7,3.7
+49,Brian,Wilson,Oncology,MD-485540,brian.wilson.49@hosp.example.com,(719) 760-7564,22,13,8,258.56,3.2
+50,Paul,Wilson,Ophthalmology,MD-979496,paul.wilson.50@hosp.example.com,(353) 650-9185,7,21,3,281.15,2.9
+51,George,Sanchez,General Surgery,MD-798780,george.sanchez.51@hosp.example.com,(680) 315-4957,17,8,5,262.84,4
+52,John,Rodriguez,Gastro,MD-295328,john.rodriguez.52@hosp.example.com,(550) 730-5845,12,22,18,224.63,4.2
+53,James,White,Urology,MD-956027,james.white.53@hosp.example.com,(999) 541-1810,14,10,20,147.6,3.6
+54,Sandra,Rodriguez,Internal Med,MD-941217,sandra.rodriguez.54@hosp.example.com,(416) 268-3332,14,23,16,256.62,4.4
+55,Brian,Brown,Pulmonology,MD-990367,brian.brown.55@hosp.example.com,(815) 526-4526,11,13,6,288.84,4.1
+56,Margaret,Hernandez,Gynecology,MD-622237,margaret.hernandez.56@hosp.example.com,(916) 811-7662,1,21,13,83.79,3.1
+57,Mark,White,Dermatology,MD-254732,mark.white.57@hosp.example.com,(468) 237-3069,32,18,7,335.43,3.4
+58,Kimberly,Rodriguez,Urology,MD-929300,kimberly.rodriguez.58@hosp.example.com,(827) 218-7064,19,2,9,177.02,2.9
+59,Emily,Thompson,Oncology,MD-204301,emily.thompson.59@hosp.example.com,(708) 630-3995,20,8,15,101.3,4.5
+60,Christopher,Thompson,Pediatrics,MD-318933,christopher.thompson.60@hosp.example.com,(345) 336-1492,11,22,20,246.84,2.8
+61,Donald,Lopez,ENT,MD-769023,donald.lopez.61@hosp.example.com,(290) 865-8005,7,9,14,370.48,4.3
+62,Steven,Brown,Rheumatology,MD-364755,steven.brown.62@hosp.example.com,(500) 912-5124,19,8,7,368.97,4.3
+63,Margaret,Jackson,Pulmonology,MD-354269,margaret.jackson.63@hosp.example.com,(780) 572-9208,3,8,8,204.37,4.3
+64,Daniel,Clark,Rheumatology,MD-259172,daniel.clark.64@hosp.example.com,(208) 559-5674,18,21,12,206.96,10
+65,Patricia,White,Psychiatry,MD-385597,patricia.white.65@hosp.example.com,(565) 207-4594,0,20,18,216.99,3.8
+66,Karen,Johnson,Family Med,MD-814942,karen.johnson.66@hosp.example.com,(798) 438-4982,15,15,6,304.86,4.3
+67,James,Hernandez,Family Med,MD-385772,james.hernandez.67@hosp.example.com,(413) 920-8887,15,12,4,360.5,3.8
+68,John,Smith,Gastro,MD-477974,john.smith.68@hosp.example.com,(559) 755-7550,0,28,9,45.17,3.7
+69,Donald,Hernandez,General Surgery,MD-283617,donald.hernandez.69@hosp.example.com,(233) 581-6503,18,11,15,268.66,3.4
+70,Donald,Williams,Neurology,MD-685220,donald.williams.70@hosp.example.com,(389) 359-4502,-1,5,17,25,5
+71,Michael,Miller,Oncology,MD-246863,,(705) 858-2690,12,21,2,204.14,4.4
+72,Thomas,Miller,Family Med,MD-992570,thomas.miller.72@hosp.example.com,(390) 925-8993,25,15,16,287.64,4.3
+73,Richard,Williams,Emergency Med,MD-637923,richard.williams.73@hosp.example.com,(334) 221-9734,-1,14,21,199.21,4
+74,Donald,Gonzalez,Pediatrics,MD-264419,donald.gonzalez.74@hosp.example.com,(670) 310-4754,0,24,1,321.05,4.3
+75,Elizabeth,Lee,Psychiatry,MD-356473,elizabeth.lee.75@hosp.example.com,(308) 334-7539,14,10,21,244.99,4
+76,Ashley,Brown,Gynecology,MD-759898,ashley.brown.76@hosp.example.com,(207) 912-4389,5,6,12,323.48,3.3
+77,Nancy,Thomas,Pediatrics,MD-913061,nancy.thomas.77@hosp.example.com,(698) 748-6844,11,21,17,387.22,5
+78,William,Martin,Urology,MD-369485,william.martin.78@hosp.example.com,(375) 840-1881,0,19,12,174.73,3
+79,Michael,Taylor,Rheumatology,MD-817419,michael.taylor.79@hosp.example.com,(736) 231-4313,26,18,9,229.25,3.8
+80,Brian,Martin,Neurology,MD-640472,brian.martin.80@hosp.example.com,(584) 213-3756,30,25,16,188.57,3.9
+81,Brian,Taylor,Radiology,MD-305557,brian.taylor.81@hosp.example.com,(881) 373-9774,20,23,17,345.94,3.8
+82,Jennifer,Garcia,ENT,MD-498349,jennifer.garcia.82@hosp.example.com,(504) 613-3753,6,19,1,289.6,3.9
+83,Margaret,Davis,Dermatology,MD-652209,margaret.davis.83@hosp.example.com,(432) 533-8396,24,11,18,354.27,4.4
+84,Mark,Jackson,Gynecology,MD-285896,mark.jackson.84@hosp.example.com,(353) 963-4728,18,21,11,297.46,4.7
+85,Robert,Davis,ENT,MD-382043,robert.davis.85@hosp.example.com,(959) 675-7594,25,10,10,376.05,3.4
+86,Kenneth,Thomas,Internal Med,MD-971041,kenneth.thomas.86@hosp.example.com,(409) 498-8726,13,12,14,257.22,3.5
+87,George,Moore,Rheumatology,MD-540901,george.moore.87@hosp.example.com,(384) 986-8419,15,13,9,25,4.4
+88,Richard,Gonzalez,Rheumatology,MD-644595,richard.gonzalez.88@hosp.example.com,(621) 659-9999,20,19,6,253.63,3.6
+89,Edward,White,Cardiology,MD-811809,edward.white.89@hosp.example.com,(390) 298-5012,6,12,20,176.67,4.5
+90,Dorothy,Jones,Radiology,MD-434492,dorothy.jones.90@hosp.example.com,(728) 556-6019,5,1,4,288.94,4.5
+91,John,Hernandez,Neurology,MD-282111,john.hernandez.91@hosp.example.com,(520) 452-4340,44,6,14,201.99,3.1
+92,Mary,Clark,Radiology,MD-561197,mary.clark.92@hosp.example.com,(786) 666-6849,13,2,3,294.15,3.6
+93,Kenneth,Thompson,Dermatology,MD-406104,kenneth.thompson.93@hosp.example.com,(893) 901-8753,24,6,16,356.9,4.1
+94,Daniel,Jackson,Pediatrics,MD-916078,daniel.jackson.94@hosp.example.com,(730) 990-7560,37,8,14,208.45,4.5
+95,Margaret,Davis,Ophthalmology,MD-108519,margaret.davis.95@hosp.example.com,(312) 346-4808,24,14,11,344.03,3.6
+96,David,Rodriguez,Gastro,MD-248537,david.rodriguez.96@hosp.example.com,(565) 237-5727,15,22,12,195.72,3.9
+97,Michael,Taylor,Family Med,MD-967172,michael.taylor.97@hosp.example.com,(823) 695-8094,19,12,20,273.57,4.6
+98,Jessica,Taylor,Gastro,MD-697336,jessica.taylor.98@hosp.example.com,(882) 848-4872,12,19,7,68.67,3.8
+99,Donald,Taylor,General Surgery,MD-761738,donald.taylor.99@hosp.example.com,(328) 833-9204,15,16,16,261.89,2.6
+100,Kimberly,Sanchez,Psychiatry,MD-647288,kimberly.sanchez.100@hosp.example.com,(434) 447-9198,37,5,16,235.18,3.5
+101,Lisa,Garcia,ENT,MD-461548,lisa.garcia.101@hosp.example.com,(994) 351-9710,14,19,6,182.81,3.3
+102,Mary,Jones,Ophthalmology,MD-651114,mary.jones.102@hosp.example.com,(278) 689-4640,8,21,11,290.28,4.4
+103,William,Jackson,Pediatrics,MD-863610,william.jackson.103@hosp.example.com,(869) 251-9419,28,30,3,409.37,4.2
+104,Joseph,Martinez,Endocrinology,MD-929666,,(829) 280-3650,14,20,15,420.3,3.5
+105,Linda,Davis,Gastro,MD-756109,linda.davis.105@hosp.example.com,(229) 384-3519,16,10,6,219.33,3.1
+106,Margaret,Martinez,Family Med,MD-103925,margaret.martinez.106@hosp.example.com,(534) 573-8077,22,12,1,171.5,3.6
+107,Michael,Brown,Nephrology,MD-146624,michael.brown.107@hosp.example.com,(458) 243-9984,18,20,2,516.35,2.8
+108,Paul,Lopez,Endocrinology,MD-994801,paul.lopez.108@hosp.example.com,(708) 954-2176,20,22,13,431.8,3.7
+109,Thomas,Anderson,Oncology,MD-306483,thomas.anderson.109@hosp.example.com,(668) 666-8177,23,2,8,245.34,4.7
+110,Robert,Wilson,Radiology,MD-320045,robert.wilson.110@hosp.example.com,(349) 746-3849,13,12,15,198.83,4.1
+111,Karen,Thompson,ENT,MD-253315,karen.thompson.111@hosp.example.com,(960) 980-8496,34,25,2,52.77,4.3
+112,Margaret,Jackson,Urology,MD-177786,margaret.jackson.112@hosp.example.com,(572) 348-1377,35,13,6,62.05,3.8
+113,Jessica,Gonzalez,Gastro,MD-612023,jessica.gonzalez.113@hosp.example.com,(500) 229-4377,25,13,7,207.15,4.9
+114,George,Brown,Gastro,MD-878841,george.brown.114@hosp.example.com,(580) 406-5760,23,19,16,450.58,4
+115,James,Moore,Internal Med,MD-269850,james.moore.115@hosp.example.com,(873) 749-8946,21,23,4,293.25,4.3
+116,Mark,Jackson,ENT,MD-969153,mark.jackson.116@hosp.example.com,(717) 378-6400,0,20,15,172.35,2.6
+117,Kimberly,Taylor,Endocrinology,MD-845754,kimberly.taylor.117@hosp.example.com,(790) 936-2433,21,9,10,326.3,3.5
+118,Edward,White,Endocrinology,MD-373939,edward.white.118@hosp.example.com,(999) 705-1844,38,20,12,163.42,5
+119,Lisa,Harris,Oncology,MD-102583,lisa.harris.119@hosp.example.com,(561) 493-7840,3,2,10,282.03,3.8
+120,James,Wilson,Internal Med,MD-500067,james.wilson.120@hosp.example.com,(782) 431-3670,11,2,1,366.61,3.5
+121,Lisa,Clark,Emergency Med,MD-583439,lisa.clark.121@hosp.example.com,(919) 318-4023,27,25,10,361.02,3.7
+122,Ashley,Thomas,Urology,MD-482132,ashley.thomas.122@hosp.example.com,(988) 684-3721,27,6,10,122.93,3.7
+123,Lisa,Johnson,Psychiatry,MD-549453,lisa.johnson.123@hosp.example.com,(424) 444-3489,10,9,21,302.94,3.6
+124,George,Johnson,ENT,MD-561312,george.johnson.124@hosp.example.com,(332) 303-5308,14,18,11,232.5,3.7
+125,William,Wilson,Urology,MD-940749,william.wilson.125@hosp.example.com,(423) 508-6678,0,4,2,252.04,4.7
+126,Michael,Sanchez,Pediatrics,MD-478536,michael.sanchez.126@hosp.example.com,(816) 938-4765,27,13,21,155.23,4.2
+127,George,Sanchez,Pulmonology,MD-413566,george.sanchez.127@hosp.example.com,(979) 342-4605,31,24,12,25,4
+128,Mary,Anderson,Nephrology,MD-887140,mary.anderson.128@hosp.example.com,(477) 517-9072,10,5,16,518.23,4.5
+129,John,Martinez,Neurology,MD-975129,john.martinez.129@hosp.example.com,(740) 570-5647,29,22,3,211.11,3.5
+130,Joseph,Taylor,General Surgery,MD-597233,joseph.taylor.130@hosp.example.com,(588) 948-2399,15,18,13,362.39,4.1
+131,Elizabeth,Wilson,ENT,MD-268577,elizabeth.wilson.131@hosp.example.com,(918) 829-1212,0,2,9,408.78,3.4
+132,David,Garcia,General Surgery,MD-586102,david.garcia.132@hosp.example.com,(500) 667-7057,10,10,16,200.68,4.6
+133,Karen,Perez,Gastro,MD-762217,karen.perez.133@hosp.example.com,(784) 805-4472,17,1,14,294.99,3.7
+134,Barbara,Davis,Internal Med,MD-123259,barbara.davis.134@hosp.example.com,(384) 542-6325,20,14,4,338.76,3.6
+135,Sarah,Johnson,Gynecology,MD-513605,sarah.johnson.135@hosp.example.com,(745) 598-6234,37,25,18,308.03,3.7
+136,Ashley,Lee,Psychiatry,MD-643765,ashley.lee.136@hosp.example.com,(365) 578-8191,29,6,12,25,4.1
+137,David,Jones,Dermatology,MD-392183,david.jones.137@hosp.example.com,(485) 979-8723,17,24,4,203.28,4.4
+138,Nancy,Miller,Emergency Med,MD-475952,,(381) 473-8997,-1,4,4,217.29,3.6
+139,Sandra,Lopez,Oncology,MD-329683,sandra.lopez.139@hosp.example.com,(658) 657-9044,11,13,17,257.77,4.3
+140,Daniel,Lopez,Psychiatry,MD-373865,,(961) 230-1887,14,21,14,267.2,3.8
+141,Edward,Jones,Psychiatry,MD-435655,edward.jones.141@hosp.example.com,(296) 380-1559,3,22,11,339.84,4.1
+142,Elizabeth,Garcia,Neurology,MD-446764,elizabeth.garcia.142@hosp.example.com,(764) 763-7322,24,15,2,387.16,3.8
+143,Jessica,Martin,Internal Med,MD-942727,jessica.martin.143@hosp.example.com,(241) 697-2610,28,5,16,280.42,4.3
+144,David,Lee,Emergency Med,MD-452387,david.lee.144@hosp.example.com,(213) 741-7511,15,14,15,230.65,3.9
+145,Richard,Taylor,ENT,MD-405359,richard.taylor.145@hosp.example.com,(230) 622-7580,14,9,16,216.21,4.7
+146,Jennifer,Garcia,Family Med,MD-828022,jennifer.garcia.146@hosp.example.com,(846) 358-1663,11,13,6,187.05,4.9
+147,Thomas,Gonzalez,Dermatology,MD-487103,thomas.gonzalez.147@hosp.example.com,(685) 280-7404,11,19,10,276.75,4
+148,David,Brown,Ophthalmology,MD-112390,david.brown.148@hosp.example.com,(940) 440-6571,33,15,15,221.39,2.9
+149,David,Martin,ENT,MD-653375,david.martin.149@hosp.example.com,(262) 704-4760,7,1,6,170.83,3.7
+150,Kimberly,Smith,Family Med,MD-364737,kimberly.smith.150@hosp.example.com,(972) 570-4073,15,5,4,427.12,3.7
+151,Jessica,Hernandez,Gastro,MD-801216,jessica.hernandez.151@hosp.example.com,(552) 457-4807,11,16,4,51.21,4
+152,Daniel,Johnson,Neurology,MD-977248,daniel.johnson.152@hosp.example.com,(766) 595-3368,20,12,2,376.35,4.6
+153,Mark,Miller,Cardiology,MD-540705,,(321) 566-2871,14,13,12,222.5,4.6
+154,Patricia,Lee,General Surgery,MD-783273,patricia.lee.154@hosp.example.com,(846) 965-6447,13,17,8,247.43,4.8
+155,Lisa,Taylor,Psychiatry,MD-955584,lisa.taylor.155@hosp.example.com,(951) 345-4074,21,12,4,393.06,3.4
+156,Sandra,Thomas,Dermatology,MD-431658,sandra.thomas.156@hosp.example.com,(461) 509-7104,11,20,13,357.49,4.6
+157,Brian,Davis,Ophthalmology,MD-229101,brian.davis.157@hosp.example.com,(794) 797-3868,6,22,3,321.91,4.9
+158,Barbara,Johnson,Internal Med,MD-700061,barbara.johnson.158@hosp.example.com,(817) 533-9047,31,20,11,151.39,3.7
+159,Barbara,Jackson,ENT,MD-785508,barbara.jackson.159@hosp.example.com,(945) 800-3790,11,15,2,190.36,3.4
+160,Mark,Jackson,Orthopedics,MD-387592,mark.jackson.160@hosp.example.com,(337) 786-6036,26,11,1,25,4.1
+161,Edward,Sanchez,Pulmonology,MD-969766,edward.sanchez.161@hosp.example.com,(581) 485-1973,15,24,1,339.03,4.2
+162,Mark,White,Gastro,MD-117145,mark.white.162@hosp.example.com,(617) 682-3331,13,25,17,170.71,2.8
+163,Patricia,Gonzalez,Nephrology,MD-628077,patricia.gonzalez.163@hosp.example.com,(829) 947-9055,16,7,3,149.94,3.7
+164,Kenneth,Anderson,Neurology,MD-517795,kenneth.anderson.164@hosp.example.com,(522) 351-6060,2,1,21,261.74,3.1
+165,Patricia,White,Family Med,MD-694978,patricia.white.165@hosp.example.com,(241) 274-1973,15,18,11,241.7,4.2
+166,Joseph,Anderson,General Surgery,MD-605247,joseph.anderson.166@hosp.example.com,(663) 221-6993,17,18,14,167.88,4.8
+167,Dorothy,Jackson,Urology,MD-378514,dorothy.jackson.167@hosp.example.com,(461) 778-5977,12,14,6,64.04,3.5
+168,Kenneth,Lopez,Oncology,MD-500884,kenneth.lopez.168@hosp.example.com,(597) 615-3399,0,21,18,25,4.5
+169,Paul,Brown,Psychiatry,MD-829270,paul.brown.169@hosp.example.com,(640) 966-5673,26,32,16,243.81,3.6
+170,Kenneth,Anderson,Endocrinology,MD-910688,kenneth.anderson.170@hosp.example.com,(907) 412-1889,20,10,14,196,3.3
+171,James,Taylor,Cardiology,MD-860369,james.taylor.171@hosp.example.com,(817) 407-8609,14,12,15,91.79,4.5
+172,Edward,Garcia,Pediatrics,MD-429004,edward.garcia.172@hosp.example.com,(376) 612-3148,30,25,7,236.8,4.3
+173,Ashley,Jones,Neurology,MD-557164,ashley.jones.173@hosp.example.com,(921) 355-1076,22,2,16,523.81,4.7
+174,Betty,Clark,Psychiatry,MD-697383,betty.clark.174@hosp.example.com,(849) 629-9620,1,9,1,101.39,4.1
+175,William,Davis,Internal Med,MD-908087,william.davis.175@hosp.example.com,(956) 314-1600,16,21,5,360.13,4.3
+176,Nancy,Harris,Nephrology,MD-264155,nancy.harris.176@hosp.example.com,(734) 374-8845,12,12,17,200.05,4.2
+177,Karen,Perez,Nephrology,MD-778944,karen.perez.177@hosp.example.com,(246) 563-8918,16,20,17,160.38,4.2
+178,Karen,Smith,Urology,MD-172189,karen.smith.178@hosp.example.com,(495) 214-3245,35,13,21,502.96,5
+179,Patricia,Johnson,Endocrinology,MD-562352,patricia.johnson.179@hosp.example.com,(582) 684-4922,24,12,18,361.63,4
+180,Kenneth,Jones,Pediatrics,MD-901714,kenneth.jones.180@hosp.example.com,(891) 698-5317,32,19,6,102.75,3.8
+181,Patricia,Miller,Dermatology,MD-130750,patricia.miller.181@hosp.example.com,(981) 366-5596,10,13,8,374.48,3.6
+182,George,Wilson,Cardiology,MD-608327,george.wilson.182@hosp.example.com,(948) 480-7230,19,7,8,472.6,3.5
+183,Jessica,Smith,Endocrinology,MD-667695,jessica.smith.183@hosp.example.com,(373) 305-8749,8,20,4,390.6,3.7
+184,Thomas,Jackson,Cardiology,MD-709352,thomas.jackson.184@hosp.example.com,(730) 263-8727,26,22,12,256.49,4.6
+185,Michael,Martin,Internal Med,MD-690853,michael.martin.185@hosp.example.com,(533) 631-7107,25,17,14,158.28,4.6
+186,Sandra,Lopez,Endocrinology,MD-816461,sandra.lopez.186@hosp.example.com,(676) 312-1918,15,1,10,462.51,4.3
+187,Barbara,Wilson,ENT,MD-703114,,(927) 275-6109,9,16,11,246.6,4.2
+188,Karen,Clark,Emergency Med,MD-298301,karen.clark.188@hosp.example.com,(466) 375-1382,11,17,3,213.6,3.1
+189,Mark,Rodriguez,Urology,MD-846380,mark.rodriguez.189@hosp.example.com,(331) 919-9387,7,29,8,148.52,3.7
+190,Sarah,Sanchez,Family Med,MD-173945,sarah.sanchez.190@hosp.example.com,(771) 814-8974,31,9,12,232.42,3.1
+191,Donald,Lopez,Gastro,MD-157370,donald.lopez.191@hosp.example.com,(829) 403-7618,3,25,8,357.09,3.6
+192,Joseph,Thompson,Dermatology,MD-668536,joseph.thompson.192@hosp.example.com,(919) 475-2121,14,22,2,381.3,4.9
+193,Kimberly,Rodriguez,Psychiatry,MD-330694,kimberly.rodriguez.193@hosp.example.com,(305) 586-6897,17,20,8,239.77,4.9
+194,Dorothy,Harris,Rheumatology,MD-702534,dorothy.harris.194@hosp.example.com,(960) 431-5042,1,18,14,432.41,4.3
+195,Mary,Rodriguez,General Surgery,MD-879275,,(703) 285-5814,0,6,4,343.74,4.4
+196,Ashley,Moore,Endocrinology,MD-454357,ashley.moore.196@hosp.example.com,(920) 348-4751,17,10,18,438.89,4.2
+197,Nancy,Garcia,Endocrinology,MD-798859,nancy.garcia.197@hosp.example.com,(908) 484-8049,5,22,13,333.02,3.6
+198,Edward,Smith,Rheumatology,MD-318706,,(585) 750-8962,9,9,4,410.29,3.3
+199,Christopher,Lee,Family Med,MD-274434,christopher.lee.199@hosp.example.com,(235) 430-8138,9,12,9,354.39,4.5
+200,Daniel,Martinez,Endocrinology,MD-858348,daniel.martinez.200@hosp.example.com,(562) 204-3609,14,1,1,61.66,4.8
+201,Sarah,Gonzalez,Gynecology,MD-368999,sarah.gonzalez.201@hosp.example.com,(788) 961-8303,23,21,20,189.94,4.1
+202,Robert,Miller,Dermatology,MD-881863,robert.miller.202@hosp.example.com,(950) 227-7482,6,8,7,330.42,4.1
+203,Ashley,Williams,Oncology,MD-203333,ashley.williams.203@hosp.example.com,(231) 639-3439,0,8,3,47.31,3.8
+204,Michael,Sanchez,ENT,MD-189774,,(484) 310-1439,19,16,9,480.22,4.5
+205,William,White,ENT,MD-415266,william.white.205@hosp.example.com,(863) 903-2537,11,9,18,159.92,4.3
+206,Barbara,Jones,Internal Med,MD-693176,barbara.jones.206@hosp.example.com,(687) 604-2764,22,21,6,395.65,3.2
+207,Brian,Hernandez,Ophthalmology,MD-801765,brian.hernandez.207@hosp.example.com,(289) 353-5707,16,2,14,318.1,4.3
+208,Steven,Taylor,Pediatrics,MD-824375,steven.taylor.208@hosp.example.com,(723) 479-4105,16,1,21,596.68,10
+209,Paul,Sanchez,Dermatology,MD-113897,paul.sanchez.209@hosp.example.com,(566) 979-2830,26,22,11,243.95,3.4
+210,Jennifer,Miller,Pediatrics,MD-324054,jennifer.miller.210@hosp.example.com,(555) 372-4434,1,2,13,68.75,3.7
+211,Nancy,Williams,Nephrology,MD-278393,nancy.williams.211@hosp.example.com,(341) 569-4566,25,21,1,233.52,4.2
+212,Linda,Brown,Pulmonology,MD-394078,linda.brown.212@hosp.example.com,(387) 501-8569,9,11,16,93.62,3.2
+213,Richard,Sanchez,Dermatology,MD-787114,richard.sanchez.213@hosp.example.com,(721) 372-2725,14,15,7,441.42,4.5
+214,Daniel,Harris,Nephrology,MD-963368,daniel.harris.214@hosp.example.com,(753) 590-7945,30,19,5,321.01,4.4
+215,Margaret,Anderson,Urology,MD-160243,margaret.anderson.215@hosp.example.com,(619) 966-4307,10,8,1,54.02,4.5
+216,Sandra,Gonzalez,Psychiatry,MD-250156,sandra.gonzalez.216@hosp.example.com,(486) 521-9611,29,12,13,330.35,4.1
+217,Margaret,Williams,Gynecology,MD-493916,margaret.williams.217@hosp.example.com,(798) 909-8353,22,18,9,141.97,4.6
+218,James,Thompson,Gastro,MD-411206,james.thompson.218@hosp.example.com,(713) 571-7733,6,24,7,210.45,4.8
+219,Jessica,Garcia,General Surgery,MD-356201,,(737) 457-9047,24,22,1,25,3.3
+220,Margaret,Davis,Oncology,MD-201553,margaret.davis.220@hosp.example.com,(575) 300-4937,27,16,2,445.19,4.4
+221,Susan,Martin,Orthopedics,MD-253648,susan.martin.221@hosp.example.com,(546) 249-4739,11,8,7,234.01,4.7
+222,Betty,Harris,Endocrinology,MD-651879,betty.harris.222@hosp.example.com,(875) 926-2675,12,18,14,301.33,4
+223,Betty,Smith,Gynecology,MD-953470,betty.smith.223@hosp.example.com,(228) 532-5272,-1,14,19,263.03,2.8
+224,John,Miller,Emergency Med,MD-226758,john.miller.224@hosp.example.com,(487) 610-3676,17,7,12,145.74,2.8
+225,Jennifer,Brown,Psychiatry,MD-798091,jennifer.brown.225@hosp.example.com,(917) 420-9643,7,19,14,288.46,4.5
+226,Linda,Sanchez,Gynecology,MD-872712,linda.sanchez.226@hosp.example.com,(500) 915-2219,10,1,12,164.13,3.4
+227,Linda,Johnson,General Surgery,MD-945080,linda.johnson.227@hosp.example.com,(619) 590-3172,1,20,13,290.4,3.4
+228,Richard,Garcia,Dermatology,MD-539405,richard.garcia.228@hosp.example.com,(833) 586-3937,10,2,4,182.27,4
+229,Nancy,Harris,Nephrology,MD-753702,nancy.harris.229@hosp.example.com,(523) 342-9465,39,7,5,192.39,3.6
+230,Sarah,Taylor,Pulmonology,MD-487371,,(366) 986-9282,2,8,19,480.7,3.5
+231,Joseph,Johnson,Gastro,MD-782452,joseph.johnson.231@hosp.example.com,(781) 644-6612,29,3,17,109.19,3.3
+232,Richard,Miller,Emergency Med,MD-837762,richard.miller.232@hosp.example.com,(918) 676-4837,17,18,21,182,3.2
+233,William,Perez,Internal Med,MD-747866,william.perez.233@hosp.example.com,(608) 856-4906,7,20,8,258.05,4.6
+234,George,Thomas,Cardiology,MD-247620,george.thomas.234@hosp.example.com,(375) 405-9944,41,6,20,254.09,4.9
+235,Brian,Garcia,ENT,MD-153723,brian.garcia.235@hosp.example.com,(643) 824-6202,5,2,19,196.93,3.7
+236,Dorothy,Lopez,Ophthalmology,MD-416139,dorothy.lopez.236@hosp.example.com,(228) 299-5231,6,23,3,414.68,2.8
+237,Robert,Harris,Pediatrics,MD-783121,robert.harris.237@hosp.example.com,(246) 933-5727,17,13,8,25,4.1
+238,Betty,Thomas,Oncology,MD-183405,betty.thomas.238@hosp.example.com,(360) 679-1080,19,15,21,255.56,4
+239,George,Johnson,Dermatology,MD-467629,george.johnson.239@hosp.example.com,(232) 305-6907,2,12,18,271.28,4.6
+240,Betty,Davis,Rheumatology,MD-439927,betty.davis.240@hosp.example.com,(976) 909-7071,7,14,17,25,3.9
+241,Daniel,Miller,Neurology,MD-705594,daniel.miller.241@hosp.example.com,(409) 568-3287,14,10,20,121.67,3.9
+242,Ashley,Jackson,Endocrinology,MD-811382,ashley.jackson.242@hosp.example.com,(937) 266-7936,13,19,15,443.05,4.6
+243,David,Harris,Emergency Med,MD-355994,david.harris.243@hosp.example.com,(953) 814-6087,15,25,21,111.57,4.8
+244,Richard,Harris,Oncology,MD-171436,richard.harris.244@hosp.example.com,(976) 786-5737,9,23,12,234.23,3.6
+245,Daniel,Lopez,Radiology,MD-398454,daniel.lopez.245@hosp.example.com,(624) 225-5301,23,12,12,96.92,4.4
+246,Robert,Williams,Oncology,MD-646576,robert.williams.246@hosp.example.com,(986) 920-3780,7,14,10,421.11,3.9
+247,Kenneth,Jones,Cardiology,MD-167419,kenneth.jones.247@hosp.example.com,(371) 890-9241,13,21,1,236.97,4.2
+248,Brian,Anderson,Gastro,MD-413949,brian.anderson.248@hosp.example.com,(373) 978-3589,30,19,16,322.21,4.1
+249,Paul,Perez,Nephrology,MD-202116,paul.perez.249@hosp.example.com,(601) 818-1535,13,12,1,107.84,3.5
+250,Dorothy,Anderson,Family Med,MD-755642,dorothy.anderson.250@hosp.example.com,(308) 335-9198,25,25,10,158.46,10
+251,Kenneth,Gonzalez,Gastro,MD-164395,kenneth.gonzalez.251@hosp.example.com,(929) 580-6605,17,19,12,-100,4.6
+252,Linda,Thompson,Ophthalmology,MD-257606,linda.thompson.252@hosp.example.com,(634) 851-2158,11,4,13,28.77,3.3
+253,Sandra,Lopez,Internal Med,MD-606406,sandra.lopez.253@hosp.example.com,(434) 900-6069,12,1,19,258.54,4.5
+254,Barbara,Rodriguez,Gastro,MD-201388,barbara.rodriguez.254@hosp.example.com,(703) 893-6777,20,22,2,224.14,4.5
+255,Kenneth,Wilson,Pulmonology,MD-815063,kenneth.wilson.255@hosp.example.com,(400) 206-3441,8,5,8,146.34,3.3
+256,Sandra,Lopez,ENT,MD-886529,sandra.lopez.256@hosp.example.com,(583) 473-4251,33,9,6,280.17,3.8
+257,Susan,Wilson,Nephrology,MD-108471,susan.wilson.257@hosp.example.com,(493) 956-3516,32,12,12,385.2,4.7
+258,Donald,Davis,Rheumatology,MD-573569,donald.davis.258@hosp.example.com,(365) 993-3020,6,24,7,394.74,3
+259,Mark,Jackson,Dermatology,MD-462872,mark.jackson.259@hosp.example.com,(865) 941-7034,8,8,19,295.94,3.2
+260,Sandra,Clark,Radiology,MD-145866,sandra.clark.260@hosp.example.com,(580) 989-7597,24,8,9,67.72,3.8
+261,Barbara,Smith,Rheumatology,MD-126241,barbara.smith.261@hosp.example.com,(867) 575-6881,37,20,20,304.39,3.9
+262,Barbara,Johnson,Orthopedics,MD-519234,barbara.johnson.262@hosp.example.com,(602) 442-9697,14,25,4,266.54,3.2
+263,Michael,Rodriguez,Orthopedics,MD-275820,michael.rodriguez.263@hosp.example.com,(345) 525-7910,24,16,12,226.56,4.2
+264,Margaret,Gonzalez,Family Med,MD-669340,margaret.gonzalez.264@hosp.example.com,(872) 364-6433,12,2,7,248.15,4.2
+265,Steven,Rodriguez,Cardiology,MD-189528,steven.rodriguez.265@hosp.example.com,(434) 327-9456,10,21,1,200.07,4.9
+266,Daniel,Wilson,Orthopedics,MD-382757,daniel.wilson.266@hosp.example.com,(288) 607-1086,16,2,6,86.43,4
+267,Lisa,Anderson,Pediatrics,MD-195064,lisa.anderson.267@hosp.example.com,(896) 392-3108,26,10,10,168.29,4
+268,Thomas,Johnson,Gastro,MD-704453,thomas.johnson.268@hosp.example.com,(542) 220-9213,6,14,12,159.81,3.4
+269,Karen,Lee,Cardiology,MD-718417,karen.lee.269@hosp.example.com,(490) 373-4932,16,8,3,366.92,3.7
+270,Donald,Miller,Ophthalmology,MD-602474,donald.miller.270@hosp.example.com,(776) 311-1193,17,20,15,302.1,4.6
+271,George,White,Cardiology,MD-684257,george.white.271@hosp.example.com,(384) 699-7166,9,18,4,292.15,4.1
+272,Richard,Garcia,Emergency Med,MD-259983,richard.garcia.272@hosp.example.com,(864) 831-3294,13,18,16,249.72,3.9
+273,Emily,Hernandez,Nephrology,MD-951976,emily.hernandez.273@hosp.example.com,(451) 264-8254,5,11,3,335.63,2.9
+274,Elizabeth,Hernandez,Neurology,MD-699522,elizabeth.hernandez.274@hosp.example.com,(675) 932-6051,21,11,5,388.49,3.4
+275,Betty,Taylor,Pediatrics,MD-109506,betty.taylor.275@hosp.example.com,(422) 440-2852,15,11,1,225.65,5
+276,David,Smith,Radiology,MD-376637,david.smith.276@hosp.example.com,(359) 368-8904,29,19,19,55.67,3
+277,John,Perez,Neurology,MD-333487,john.perez.277@hosp.example.com,(583) 501-4975,17,20,2,348.31,3.7
+278,Patricia,Garcia,Endocrinology,MD-763974,patricia.garcia.278@hosp.example.com,(529) 873-3277,20,11,19,262.58,3.6
+279,David,White,Oncology,MD-472130,david.white.279@hosp.example.com,(482) 550-3094,17,9,16,245.08,3.5
+280,Dorothy,Taylor,Psychiatry,MD-980124,dorothy.taylor.280@hosp.example.com,(331) 496-6811,28,23,18,187.76,3.4
+281,Jessica,Lopez,ENT,MD-781960,jessica.lopez.281@hosp.example.com,(419) 818-1792,19,12,15,200.49,4.4
+282,Edward,White,General Surgery,MD-232346,edward.white.282@hosp.example.com,(994) 345-7441,11,18,12,247.34,3.5
+283,James,Moore,Neurology,MD-488561,james.moore.283@hosp.example.com,(934) 570-6694,0,4,13,217.34,3.2
+284,Daniel,Sanchez,Radiology,MD-181797,daniel.sanchez.284@hosp.example.com,(723) 738-7495,23,23,11,192.85,3.2
+285,Jennifer,Jackson,Gynecology,MD-210349,jennifer.jackson.285@hosp.example.com,(391) 433-7844,6,17,12,248.57,4.1
+286,Sarah,Martin,Radiology,MD-755696,sarah.martin.286@hosp.example.com,(859) 569-6419,8,22,11,497.74,4
+287,Emily,Rodriguez,Gastro,MD-807045,emily.rodriguez.287@hosp.example.com,(260) 560-9492,0,5,18,286.09,4.3
+288,Christopher,Clark,Urology,MD-991556,christopher.clark.288@hosp.example.com,(288) 212-2837,15,15,18,351.81,4.3
+289,Dorothy,Hernandez,Gastro,MD-788160,dorothy.hernandez.289@hosp.example.com,(493) 316-5605,21,11,19,413.44,4.6
+290,Christopher,Thompson,Cardiology,MD-913012,christopher.thompson.290@hosp.example.com,(660) 265-2656,24,2,8,308.65,4.1
+291,Steven,Smith,Gynecology,MD-533888,steven.smith.291@hosp.example.com,(282) 665-9721,25,8,13,93.25,4.1
+292,Susan,Jones,Nephrology,MD-539563,susan.jones.292@hosp.example.com,(902) 604-7696,11,14,11,194.36,4.1
+293,George,Wilson,Internal Med,MD-691492,george.wilson.293@hosp.example.com,(702) 954-2788,6,8,6,299.18,4.2
+294,Ashley,Smith,Nephrology,MD-266952,ashley.smith.294@hosp.example.com,(635) 847-2628,19,13,18,467.43,3.8
+295,Betty,Hernandez,Psychiatry,MD-590298,betty.hernandez.295@hosp.example.com,(617) 279-9239,22,2,9,-100,2.9
+296,Dorothy,Jones,Endocrinology,MD-459326,dorothy.jones.296@hosp.example.com,(648) 908-6614,19,4,11,236.02,4
+297,Mary,Thomas,General Surgery,MD-376148,mary.thomas.297@hosp.example.com,(637) 833-8799,0,14,3,452.33,2.2
+298,Margaret,Anderson,Emergency Med,MD-960660,margaret.anderson.298@hosp.example.com,(734) 953-4674,43,25,6,83.26,3.5
+299,Mary,Johnson,Endocrinology,MD-439627,mary.johnson.299@hosp.example.com,(450) 681-8312,20,1,21,-100,4
+300,John,Harris,Radiology,MD-472485,john.harris.300@hosp.example.com,(853) 810-4247,14,20,17,424.55,3.4
+301,Richard,Garcia,Nephrology,MD-428962,richard.garcia.301@hosp.example.com,(936) 873-1854,43,2,21,205.67,4.5
+302,Edward,Jackson,Gynecology,MD-146974,,(879) 861-9905,24,13,8,91.56,3.8
+303,Dorothy,Garcia,ENT,MD-738119,dorothy.garcia.303@hosp.example.com,(558) 394-9354,17,20,13,139.89,4.3
+304,Brian,Brown,Family Med,MD-138437,brian.brown.304@hosp.example.com,(317) 218-4224,16,12,4,384.45,4.4
+305,Daniel,Johnson,Oncology,MD-774317,daniel.johnson.305@hosp.example.com,(754) 975-9943,19,2,2,411.94,4.8
+306,Donald,Garcia,Urology,MD-852743,donald.garcia.306@hosp.example.com,(633) 627-4646,31,25,12,411.06,4.9
+307,Elizabeth,Thomas,Gastro,MD-137840,elizabeth.thomas.307@hosp.example.com,(463) 774-7123,10,23,6,305.83,3.7
+308,Mary,Williams,Oncology,MD-816359,mary.williams.308@hosp.example.com,(997) 475-3364,22,1,10,321.68,3.8
+309,John,Hernandez,Psychiatry,MD-602325,john.hernandez.309@hosp.example.com,(462) 827-5306,28,17,8,168.13,4.3
+310,Steven,Smith,Pulmonology,MD-721937,steven.smith.310@hosp.example.com,(606) 978-2355,14,15,5,231.17,4
+311,Joseph,Clark,Oncology,MD-339011,joseph.clark.311@hosp.example.com,(853) 680-4819,27,20,4,244.09,3.6
+312,Jennifer,Johnson,Neurology,MD-793068,jennifer.johnson.312@hosp.example.com,(389) 213-8597,24,22,13,481.73,3.7
+313,Linda,Clark,Ophthalmology,MD-738388,linda.clark.313@hosp.example.com,(962) 471-3239,14,6,14,264.77,4
+314,Mark,White,Urology,MD-398238,mark.white.314@hosp.example.com,(363) 896-6230,24,1,20,236.25,4.1
+315,William,Sanchez,Gastro,MD-457481,william.sanchez.315@hosp.example.com,(895) 694-9082,22,18,13,231.3,4
+316,Karen,Jones,Oncology,MD-127089,karen.jones.316@hosp.example.com,(844) 455-4776,30,18,19,284.88,5
+317,Betty,Lee,Internal Med,MD-830743,betty.lee.317@hosp.example.com,(499) 442-7282,0,24,10,324.89,4.2
+318,Linda,Jones,Oncology,MD-752486,linda.jones.318@hosp.example.com,(651) 486-4159,20,10,16,328.51,4.4
+319,Thomas,Wilson,Neurology,MD-657574,,(263) 961-9508,29,15,6,305.71,4.5
+320,Steven,Taylor,General Surgery,MD-148938,steven.taylor.320@hosp.example.com,(881) 317-7441,0,23,10,120.68,4.3
+321,Kimberly,Gonzalez,Orthopedics,MD-671385,kimberly.gonzalez.321@hosp.example.com,(247) 339-3446,14,8,12,25,4
+322,Brian,Hernandez,Internal Med,MD-697916,brian.hernandez.322@hosp.example.com,(883) 805-2796,0,10,2,225.68,3.5
+323,John,Thompson,Urology,MD-581659,john.thompson.323@hosp.example.com,(222) 427-9537,17,25,7,55.13,3.9
+324,Donald,Lee,Emergency Med,MD-434776,donald.lee.324@hosp.example.com,(818) 222-7424,9,24,9,162.25,4
+325,Betty,Lee,Gastro,MD-899101,betty.lee.325@hosp.example.com,(625) 787-8908,24,12,12,455.83,3.5
+326,David,Taylor,Oncology,MD-552547,david.taylor.326@hosp.example.com,(387) 298-1483,18,16,16,183.23,3.9
+327,Linda,Anderson,Urology,MD-716781,linda.anderson.327@hosp.example.com,(616) 458-3554,14,9,13,62.45,4.2
+328,Michael,Jones,Ophthalmology,MD-314358,michael.jones.328@hosp.example.com,(745) 832-5607,15,24,3,192.86,4
+329,Daniel,Garcia,ENT,MD-183293,daniel.garcia.329@hosp.example.com,(388) 737-1975,25,2,11,365.3,4.1
+330,Karen,Lopez,Pediatrics,MD-658217,karen.lopez.330@hosp.example.com,(641) 706-4386,19,18,5,354.49,3.7
+331,John,Garcia,Gynecology,MD-303072,john.garcia.331@hosp.example.com,(326) 797-5354,14,13,9,166.55,3.5
+332,Mary,Thompson,Internal Med,MD-172239,mary.thompson.332@hosp.example.com,(221) 640-3946,19,13,19,138.98,3.3
+333,Ashley,Brown,ENT,MD-788131,ashley.brown.333@hosp.example.com,(951) 641-4814,15,2,3,25,3.8
+334,Betty,Davis,Radiology,MD-278427,betty.davis.334@hosp.example.com,(678) 972-2427,15,7,18,359.08,4.2
+335,Joseph,Taylor,Oncology,MD-375942,joseph.taylor.335@hosp.example.com,(849) 700-2812,4,10,17,248.16,4.9
+336,Emily,Smith,Psychiatry,MD-101119,emily.smith.336@hosp.example.com,(537) 308-1151,14,6,18,352.49,4.4
+337,Sandra,Perez,Neurology,MD-429096,sandra.perez.337@hosp.example.com,(339) 775-9656,2,11,20,276.78,3.3
+338,Margaret,Moore,Cardiology,MD-414946,margaret.moore.338@hosp.example.com,(532) 451-2457,38,25,13,187.53,4.1
+339,Linda,Rodriguez,Ophthalmology,MD-191001,linda.rodriguez.339@hosp.example.com,(649) 501-1327,0,9,9,234.3,3.5
+340,Sarah,Williams,Emergency Med,MD-747956,sarah.williams.340@hosp.example.com,(950) 806-2571,28,17,9,231.47,3.6
+341,George,Davis,Orthopedics,MD-671338,george.davis.341@hosp.example.com,(816) 527-1802,34,9,7,595.37,3.7
+342,Sarah,Harris,Gastro,MD-946610,sarah.harris.342@hosp.example.com,(356) 809-4310,3,4,21,536.73,4.1
+343,Jennifer,Moore,Orthopedics,MD-162569,jennifer.moore.343@hosp.example.com,(999) 899-8687,12,5,1,270.63,3.9
+344,Robert,Miller,Cardiology,MD-825909,robert.miller.344@hosp.example.com,(881) 591-3637,11,3,12,179.47,4.2
+345,Ashley,Davis,Orthopedics,MD-218916,ashley.davis.345@hosp.example.com,(417) 698-6216,21,21,17,396.42,3.5
+346,Michael,Hernandez,Emergency Med,MD-131906,michael.hernandez.346@hosp.example.com,(375) 606-8073,20,1,17,317.46,4.2
+347,Richard,Davis,Urology,MD-173527,richard.davis.347@hosp.example.com,(298) 366-6410,0,8,2,380.58,4.7
+348,Linda,Taylor,Ophthalmology,MD-410613,linda.taylor.348@hosp.example.com,(310) 367-6674,23,18,15,239.37,3.9
+349,George,Gonzalez,Orthopedics,MD-617438,george.gonzalez.349@hosp.example.com,(312) 794-7888,6,20,18,136.02,4.8
+350,Elizabeth,Rodriguez,Nephrology,MD-600311,elizabeth.rodriguez.350@hosp.example.com,(457) 347-5218,20,2,19,246.86,4.1
+351,Donald,Jones,Endocrinology,MD-479876,donald.jones.351@hosp.example.com,(202) 803-8225,18,16,15,279.01,3.2
+352,Nancy,Jackson,Oncology,MD-120311,nancy.jackson.352@hosp.example.com,(224) 579-2531,13,24,17,192.07,4
+353,Elizabeth,Williams,General Surgery,MD-671567,elizabeth.williams.353@hosp.example.com,(797) 649-8939,19,4,3,156.88,4.1
+354,Kimberly,Smith,Neurology,MD-845548,kimberly.smith.354@hosp.example.com,(933) 764-6495,22,25,3,197.98,4.6
+355,Robert,Clark,Dermatology,MD-470945,robert.clark.355@hosp.example.com,(982) 697-2033,24,10,15,45.64,4.8
+356,Dorothy,Jackson,Cardiology,MD-855024,dorothy.jackson.356@hosp.example.com,(384) 661-1724,7,5,8,402.47,3.8
+357,Barbara,Garcia,Emergency Med,MD-431890,barbara.garcia.357@hosp.example.com,(278) 685-9940,0,2,21,330.03,3.7
+358,Mark,Miller,Radiology,MD-187012,mark.miller.358@hosp.example.com,(646) 739-8253,22,1,14,360.38,4.1
+359,Karen,White,Rheumatology,MD-772551,karen.white.359@hosp.example.com,(223) 394-8999,30,12,11,93.45,4.3
+360,Patricia,Thompson,Cardiology,MD-448626,patricia.thompson.360@hosp.example.com,(308) 404-2491,18,10,4,159.77,4.8
+361,Daniel,White,Radiology,MD-698541,daniel.white.361@hosp.example.com,(978) 789-3715,16,24,12,100.6,3.7
+362,Elizabeth,Garcia,ENT,MD-452360,elizabeth.garcia.362@hosp.example.com,(694) 709-1621,30,16,12,446.64,2.8
+363,Mary,Williams,Cardiology,MD-113525,mary.williams.363@hosp.example.com,(474) 744-8744,6,18,13,250.82,3.3
+364,James,Jackson,Urology,MD-735465,james.jackson.364@hosp.example.com,(732) 629-4582,30,12,20,374.38,4.4
+365,Jessica,Miller,Dermatology,MD-988831,jessica.miller.365@hosp.example.com,(356) 705-4403,9,24,12,383.09,3.1
+366,Margaret,Martin,Family Med,MD-279393,margaret.martin.366@hosp.example.com,(251) 728-8950,0,11,16,231.13,5
+367,Karen,White,Pediatrics,MD-156461,karen.white.367@hosp.example.com,(251) 572-8473,29,23,14,196.08,4.5
+368,Michael,Harris,Endocrinology,MD-358729,michael.harris.368@hosp.example.com,(428) 494-1128,4,23,1,254.72,3.9
+369,Emily,Lopez,Emergency Med,MD-298214,emily.lopez.369@hosp.example.com,(344) 590-6705,-1,19,12,199.3,4.1
+370,Edward,Harris,Internal Med,MD-983321,edward.harris.370@hosp.example.com,(613) 523-8032,14,18,7,73.78,4
+371,William,White,Family Med,MD-194200,william.white.371@hosp.example.com,(482) 764-4463,27,7,12,339.32,4.6
+372,Michael,Wilson,Gynecology,MD-385583,michael.wilson.372@hosp.example.com,(415) 780-1768,30,13,12,230.07,3.9
+373,George,Perez,Radiology,MD-514407,george.perez.373@hosp.example.com,(398) 621-5802,0,13,20,195.27,2.9
+374,Christopher,Perez,Neurology,MD-808774,christopher.perez.374@hosp.example.com,(299) 465-8286,15,18,3,231.46,3.2
+375,Brian,Anderson,ENT,MD-301624,brian.anderson.375@hosp.example.com,(687) 925-3346,14,1,5,253,4.2
+376,Elizabeth,Hernandez,Family Med,MD-726180,elizabeth.hernandez.376@hosp.example.com,(456) 303-4720,6,18,6,164.32,4.3
+377,Susan,Clark,Endocrinology,MD-234724,susan.clark.377@hosp.example.com,(827) 682-9962,33,15,5,317.26,4
+378,Daniel,Gonzalez,General Surgery,MD-326715,daniel.gonzalez.378@hosp.example.com,(615) 680-3600,22,8,14,187.72,3.2
+379,Betty,Clark,Pulmonology,MD-434705,betty.clark.379@hosp.example.com,(378) 584-3683,4,19,5,206.43,3.8
+380,Kimberly,Sanchez,Family Med,MD-978007,kimberly.sanchez.380@hosp.example.com,(898) 396-6453,15,4,19,377.88,4.8
+381,Thomas,Gonzalez,ENT,MD-792001,thomas.gonzalez.381@hosp.example.com,(335) 215-3651,14,11,16,177.44,4.8
+382,Patricia,Lee,Neurology,MD-795797,patricia.lee.382@hosp.example.com,(292) 623-6931,14,12,17,270.95,3.7
+383,David,Sanchez,General Surgery,MD-173366,david.sanchez.383@hosp.example.com,(241) 788-4589,22,2,5,282.74,3.8
+384,Emily,Martinez,Pediatrics,MD-170164,emily.martinez.384@hosp.example.com,(526) 532-5202,16,13,2,335.02,3.7
+385,Dorothy,Smith,Gynecology,MD-182823,dorothy.smith.385@hosp.example.com,(935) 363-4270,10,6,19,137.62,3.5
+386,Margaret,White,Neurology,MD-857429,margaret.white.386@hosp.example.com,(332) 749-5043,22,23,5,227.04,4.9
+387,Barbara,Thomas,Nephrology,MD-465477,barbara.thomas.387@hosp.example.com,(657) 684-8106,18,17,3,193.82,3.1
+388,Mark,Thompson,Endocrinology,MD-404667,mark.thompson.388@hosp.example.com,(252) 839-3320,12,4,17,416.12,5
+389,Linda,Sanchez,Radiology,MD-472813,linda.sanchez.389@hosp.example.com,(753) 321-4165,32,12,16,143.91,5
+390,Elizabeth,Miller,Endocrinology,MD-759045,elizabeth.miller.390@hosp.example.com,(808) 230-3106,11,8,17,429.04,3.8
+391,Sarah,Williams,Dermatology,MD-485208,sarah.williams.391@hosp.example.com,(945) 378-6537,20,25,15,407.25,3.6
+392,Barbara,Harris,ENT,MD-871429,barbara.harris.392@hosp.example.com,(209) 392-7520,37,1,8,281.64,5
+393,Daniel,Lopez,Gastro,MD-751164,daniel.lopez.393@hosp.example.com,(471) 533-2473,17,17,13,311.84,4.3
+394,Mark,Jackson,Urology,MD-436604,mark.jackson.394@hosp.example.com,(562) 818-3590,0,5,18,113.51,4.7
+395,Robert,Perez,Nephrology,MD-880558,robert.perez.395@hosp.example.com,(291) 235-8048,16,2,19,551.54,4.1
+396,Sarah,Williams,Rheumatology,MD-476987,,(807) 399-1309,24,1,10,115.33,3.1
+397,Donald,Jones,General Surgery,MD-135858,donald.jones.397@hosp.example.com,(218) 372-7344,22,9,1,25,4.4
+398,Steven,Jones,Emergency Med,MD-974320,steven.jones.398@hosp.example.com,(752) 900-3644,21,23,4,300.45,3.7
+399,Mary,Williams,Cardiology,MD-219322,mary.williams.399@hosp.example.com,(561) 462-5232,15,1,19,304.22,3.5
+400,James,Jackson,Gastro,MD-850397,james.jackson.400@hosp.example.com,(311) 365-2581,37,4,2,238.58,3.6
+401,Kimberly,Thomas,Rheumatology,MD-541034,kimberly.thomas.401@hosp.example.com,(646) 965-4176,43,16,10,86.2,4.7
+402,Lisa,Jones,Family Med,MD-608256,lisa.jones.402@hosp.example.com,(416) 616-6992,2,16,10,137.46,3.8
+403,Patricia,Miller,Gynecology,MD-273627,patricia.miller.403@hosp.example.com,(945) 636-9083,0,12,1,136.33,3.6
+404,Thomas,Taylor,Rheumatology,MD-976929,thomas.taylor.404@hosp.example.com,(712) 436-9381,8,4,8,365.02,4.7
+405,John,Thomas,Gastro,MD-327804,john.thomas.405@hosp.example.com,(725) 476-6920,1,19,15,307.22,4.2
+406,Jennifer,Wilson,Gastro,MD-758287,jennifer.wilson.406@hosp.example.com,(647) 290-9652,27,4,8,107.31,4.2
+407,Dorothy,Anderson,Dermatology,MD-876035,dorothy.anderson.407@hosp.example.com,(701) 232-6231,18,2,18,288.95,3.6
+408,Emily,Williams,Neurology,MD-304132,emily.williams.408@hosp.example.com,(596) 926-4214,4,2,18,260.33,4.4
+409,Sarah,Taylor,Pulmonology,MD-797513,sarah.taylor.409@hosp.example.com,(868) 277-9897,24,19,5,289.03,4.6
+410,Dorothy,Taylor,Gynecology,MD-607840,,(604) 622-8690,24,5,11,136.03,5
+411,Kimberly,Williams,Nephrology,MD-609674,kimberly.williams.411@hosp.example.com,(206) 446-1934,11,12,15,354.63,4.4
+412,Sarah,Martin,Neurology,MD-214995,sarah.martin.412@hosp.example.com,(268) 612-1983,18,2,20,213.69,3.8
+413,Robert,Thompson,Cardiology,MD-743771,robert.thompson.413@hosp.example.com,(829) 764-9215,13,12,6,25,3.9
+414,Daniel,Williams,Cardiology,MD-282001,daniel.williams.414@hosp.example.com,(976) 587-9077,16,8,13,342.14,4.6
+415,Margaret,Taylor,Endocrinology,MD-439482,margaret.taylor.415@hosp.example.com,(912) 475-7381,28,9,16,192.65,3.4
+416,Emily,Johnson,Endocrinology,MD-228447,emily.johnson.416@hosp.example.com,(735) 376-9307,23,21,3,316.78,3.7
+417,Dorothy,Hernandez,Orthopedics,MD-719685,dorothy.hernandez.417@hosp.example.com,(508) 280-7318,21,14,4,315.34,3.1
+418,Nancy,Smith,General Surgery,MD-875716,nancy.smith.418@hosp.example.com,(941) 334-9984,25,22,19,161.66,4.5
+419,James,Thomas,Oncology,MD-538932,james.thomas.419@hosp.example.com,(557) 740-5804,9,7,6,25,4.3
+420,Barbara,Jones,Neurology,MD-335381,barbara.jones.420@hosp.example.com,(781) 734-8767,17,11,16,489.68,4
+421,Richard,Lopez,Oncology,MD-117195,richard.lopez.421@hosp.example.com,(713) 638-2398,4,4,1,307.02,4.2
+422,Jennifer,Johnson,Pediatrics,MD-103279,jennifer.johnson.422@hosp.example.com,(238) 598-7618,5,23,14,334.23,4.6
+423,James,Gonzalez,Pediatrics,MD-453087,james.gonzalez.423@hosp.example.com,(503) 426-6271,0,13,16,440.16,3.8
+424,Barbara,Taylor,Gastro,MD-401522,barbara.taylor.424@hosp.example.com,(741) 668-9868,14,7,3,-100,4.2
+425,Barbara,Martinez,Neurology,MD-654223,barbara.martinez.425@hosp.example.com,(475) 433-5932,2,25,12,404.49,3.8
+426,Joseph,Jackson,Dermatology,MD-180020,joseph.jackson.426@hosp.example.com,(721) 715-3553,0,23,4,105.09,3.8
+427,Betty,Martinez,Nephrology,MD-258691,betty.martinez.427@hosp.example.com,(251) 797-7120,24,13,3,50.96,4.8
+428,Lisa,White,Urology,MD-500260,lisa.white.428@hosp.example.com,(545) 704-4283,8,23,15,84.78,4.5
+429,William,Smith,Oncology,MD-634192,william.smith.429@hosp.example.com,(578) 392-2536,27,2,12,439.92,4.3
+430,Donald,Jackson,Gastro,MD-735761,donald.jackson.430@hosp.example.com,(656) 681-6145,12,16,18,227.26,4.7
+431,Dorothy,Hernandez,ENT,MD-757783,dorothy.hernandez.431@hosp.example.com,(353) 590-7256,17,1,7,257.4,4.8
+432,Mary,Thomas,Psychiatry,MD-614966,mary.thomas.432@hosp.example.com,(360) 950-1319,0,18,16,160.59,3.6
+433,Sandra,Clark,Psychiatry,MD-976732,sandra.clark.433@hosp.example.com,(295) 539-8264,1,7,6,347.38,4.3
+434,Susan,Lopez,Oncology,MD-786037,susan.lopez.434@hosp.example.com,(298) 780-6913,21,1,3,277.07,4.2
+435,Christopher,Martinez,Nephrology,MD-147665,,(497) 423-9357,3,25,2,447.22,3.3
+436,Lisa,Williams,Pulmonology,MD-366466,lisa.williams.436@hosp.example.com,(666) 632-8027,13,24,19,263.42,3.6
+437,Linda,Johnson,Psychiatry,MD-455418,linda.johnson.437@hosp.example.com,(792) 961-9187,3,12,7,382.81,4.2
+438,Lisa,Williams,Internal Med,MD-136909,lisa.williams.438@hosp.example.com,(764) 514-6207,3,9,19,271.03,3.6
+439,Kenneth,Johnson,Ophthalmology,MD-805944,kenneth.johnson.439@hosp.example.com,(241) 569-1833,11,17,16,182.94,3.9
+440,David,Davis,General Surgery,MD-369661,david.davis.440@hosp.example.com,(539) 414-9400,26,15,19,155.44,3.1
+441,Mark,Wilson,Pediatrics,MD-431761,mark.wilson.441@hosp.example.com,(857) 949-6669,17,2,20,486.71,3.9
+442,Sandra,Brown,Psychiatry,MD-254317,sandra.brown.442@hosp.example.com,(647) 874-7983,12,13,18,516.59,3.9
+443,Margaret,Smith,Neurology,MD-171496,margaret.smith.443@hosp.example.com,(830) 403-9947,24,15,7,397.36,4
+444,Christopher,Lee,Radiology,MD-675011,christopher.lee.444@hosp.example.com,(734) 948-5746,1,4,13,105.42,4
+445,Margaret,Lopez,Endocrinology,MD-971172,margaret.lopez.445@hosp.example.com,(596) 752-4346,3,16,7,445.4,5
+446,Elizabeth,Williams,Dermatology,MD-188505,elizabeth.williams.446@hosp.example.com,(345) 491-8197,0,16,19,529.49,4.7
+447,Brian,Sanchez,Emergency Med,MD-493289,brian.sanchez.447@hosp.example.com,(476) 819-3365,23,1,19,333.06,5
+448,Elizabeth,Sanchez,Emergency Med,MD-356285,elizabeth.sanchez.448@hosp.example.com,(420) 513-3583,7,6,18,226.87,3.8
+449,Kenneth,Wilson,Urology,MD-867742,kenneth.wilson.449@hosp.example.com,(581) 612-6908,3,25,21,354.85,4.2
+450,Linda,Clark,Ophthalmology,MD-525108,linda.clark.450@hosp.example.com,(780) 464-6085,7,9,11,272.51,3.4
+451,Emily,Williams,Radiology,MD-592598,emily.williams.451@hosp.example.com,(235) 726-4973,18,25,6,238.42,3.8
+452,Christopher,Hernandez,Urology,MD-872871,christopher.hernandez.452@hosp.example.com,(319) 662-9784,1,5,16,305.4,4.8
+453,Patricia,Thomas,Gastro,MD-286640,patricia.thomas.453@hosp.example.com,(774) 298-7891,32,17,7,209.2,4.1
+454,Nancy,Johnson,Rheumatology,MD-935660,nancy.johnson.454@hosp.example.com,(628) 890-2988,1,22,12,333.3,4.7
+455,Brian,Smith,Gynecology,MD-996420,brian.smith.455@hosp.example.com,(318) 894-9812,0,12,12,367.87,4.8
+456,William,Garcia,Internal Med,MD-246446,william.garcia.456@hosp.example.com,(888) 543-4797,23,12,3,148.28,3.2
+457,Nancy,Martin,Gastro,MD-862298,nancy.martin.457@hosp.example.com,(300) 808-6155,26,6,16,153.41,4.5
+458,Karen,Martinez,Gastro,MD-897821,karen.martinez.458@hosp.example.com,(996) 330-2821,15,25,16,255.57,3.9
+459,Christopher,Thomas,Urology,MD-150438,christopher.thomas.459@hosp.example.com,(635) 949-9982,25,7,13,104.29,3.8
+460,Elizabeth,Hernandez,Pediatrics,MD-489199,elizabeth.hernandez.460@hosp.example.com,(627) 220-6012,10,15,1,25,3.6
+461,Dorothy,Thomas,Radiology,MD-155197,dorothy.thomas.461@hosp.example.com,(418) 358-9043,16,8,9,468.05,4
+462,Jennifer,Moore,Gastro,MD-588395,jennifer.moore.462@hosp.example.com,(596) 957-8328,16,20,20,362.76,4.7
+463,Lisa,Hernandez,Family Med,MD-456049,lisa.hernandez.463@hosp.example.com,(478) 724-3753,12,12,8,351.44,3.7
+464,Christopher,Garcia,Psychiatry,MD-984179,christopher.garcia.464@hosp.example.com,(650) 255-8856,12,5,1,476.49,2.9
+465,Paul,Jackson,Urology,MD-650670,paul.jackson.465@hosp.example.com,(921) 897-6893,9,13,1,98.18,4.6
+466,Joseph,Hernandez,Pediatrics,MD-739368,joseph.hernandez.466@hosp.example.com,(786) 950-5106,11,3,14,25,4.6
+467,Nancy,Gonzalez,Pediatrics,MD-277919,nancy.gonzalez.467@hosp.example.com,(838) 491-6368,12,11,19,516.33,3.6
+468,Emily,Jones,Radiology,MD-235917,emily.jones.468@hosp.example.com,(892) 783-5818,5,1,8,367.15,10
+469,Edward,Anderson,Urology,MD-790746,edward.anderson.469@hosp.example.com,(516) 649-2939,21,2,8,410.33,3.3
+470,Ashley,Johnson,General Surgery,MD-460474,ashley.johnson.470@hosp.example.com,(438) 911-1983,8,9,7,440.53,4
+471,Christopher,Lee,Pulmonology,MD-897094,christopher.lee.471@hosp.example.com,(441) 583-6396,11,7,15,437.79,3.9
+472,William,Miller,Ophthalmology,MD-457929,william.miller.472@hosp.example.com,(482) 915-8917,7,15,7,282.04,4.2
+473,Karen,Rodriguez,Nephrology,MD-166856,karen.rodriguez.473@hosp.example.com,(959) 742-9759,16,22,16,275.46,3.5
+474,Mark,Lee,Emergency Med,MD-190260,mark.lee.474@hosp.example.com,(788) 267-5413,11,7,21,25,4
+475,Kimberly,Perez,Nephrology,MD-665140,kimberly.perez.475@hosp.example.com,(900) 949-8459,21,18,12,274.88,3.9
+476,Steven,Wilson,Nephrology,MD-893067,steven.wilson.476@hosp.example.com,(468) 592-6045,-1,19,20,203.9,3.8
+477,James,Garcia,Oncology,MD-555901,james.garcia.477@hosp.example.com,(786) 868-3303,30,15,4,111.89,4
+478,Ashley,Thompson,Ophthalmology,MD-320632,ashley.thompson.478@hosp.example.com,(549) 520-6548,13,9,5,25,4.7
+479,Daniel,Clark,Dermatology,MD-541877,daniel.clark.479@hosp.example.com,(997) 584-6642,8,15,18,397.95,3.6
+480,Karen,Thompson,Urology,MD-705893,karen.thompson.480@hosp.example.com,(295) 590-8625,10,19,11,134.54,4
+481,William,Perez,Dermatology,MD-720774,william.perez.481@hosp.example.com,(799) 333-5964,31,2,2,317.14,4.4
+482,Jennifer,Gonzalez,Endocrinology,MD-965182,jennifer.gonzalez.482@hosp.example.com,(892) 786-4134,26,19,11,188.4,4.4
+483,Kenneth,Jackson,ENT,MD-947449,kenneth.jackson.483@hosp.example.com,(210) 993-7925,15,12,16,301.75,4.5
+484,Jessica,Williams,Dermatology,MD-266143,jessica.williams.484@hosp.example.com,(384) 954-5755,16,25,11,274.75,3.1
+485,Donald,Perez,Ophthalmology,MD-910674,donald.perez.485@hosp.example.com,(523) 497-1182,21,23,15,302.22,4.3
+486,Daniel,White,Urology,MD-660924,daniel.white.486@hosp.example.com,(229) 976-8857,21,13,19,232.93,3.3
+487,George,Moore,Nephrology,MD-378739,george.moore.487@hosp.example.com,(632) 354-7363,16,14,20,190.88,3.6
+488,Paul,Hernandez,Neurology,MD-422222,paul.hernandez.488@hosp.example.com,(517) 687-8219,3,11,14,101.89,5
+489,Elizabeth,Brown,Family Med,MD-461782,elizabeth.brown.489@hosp.example.com,(742) 641-3280,25,1,21,252.23,3.8
+490,Christopher,Brown,Nephrology,MD-826928,christopher.brown.490@hosp.example.com,(428) 255-4239,28,23,4,210.5,4.7
+491,George,Martinez,Pediatrics,MD-954873,george.martinez.491@hosp.example.com,(240) 930-5050,19,13,10,258.75,3.9
+492,Christopher,Harris,Pediatrics,MD-288443,christopher.harris.492@hosp.example.com,(609) 399-6192,8,8,8,680.86,3.1
+493,Christopher,Clark,Oncology,MD-330494,christopher.clark.493@hosp.example.com,(207) 916-5290,26,3,14,137.43,4.7
+494,Michael,Lopez,Pediatrics,MD-208500,michael.lopez.494@hosp.example.com,(807) 931-2424,5,18,2,257.96,3.9
+495,Susan,Moore,Neurology,MD-783509,susan.moore.495@hosp.example.com,(554) 368-4313,22,21,11,295.49,3.6
+496,James,Martinez,Cardiology,MD-414682,james.martinez.496@hosp.example.com,(313) 776-7257,18,23,13,465.56,3
+497,Mary,Sanchez,Neurology,MD-989508,mary.sanchez.497@hosp.example.com,(835) 540-1257,16,21,21,305.33,4.4
+498,Daniel,Davis,Orthopedics,MD-113416,daniel.davis.498@hosp.example.com,(343) 490-7083,31,15,20,217.66,3.5
+499,William,Lopez,Gastro,MD-227748,william.lopez.499@hosp.example.com,(913) 593-5370,25,15,6,216.12,3.1
+500,Daniel,Brown,ENT,MD-365810,daniel.brown.500@hosp.example.com,(490) 418-3282,12,5,17,227.78,5
+501,Dorothy,Thomas,Oncology,MD-539338,dorothy.thomas.501@orphan.example.com,(311) 714-8169,3,135,15,179.69,4.4
+502,Jennifer,Miller,General Surgery,MD-915588,jennifer.miller.502@orphan.example.com,(938) 224-3069,0,195,13,382.75,4.4
+503,Richard,Clark,Pediatrics,MD-106943,richard.clark.503@orphan.example.com,(719) 769-9165,20,139,13,65.75,4.7
+504,Thomas,Perez,Family Med,MD-214270,thomas.perez.504@orphan.example.com,(393) 481-3716,11,173,18,156.09,3.9
+505,Elizabeth,Jackson,Psychiatry,MD-655015,elizabeth.jackson.505@orphan.example.com,(760) 969-7597,9,101,10,138.87,3.8
+506,Kimberly,Gonzalez,Ophthalmology,MD-594555,kimberly.gonzalez.506@orphan.example.com,(240) 728-2365,12,177,1,143.35,3.4
+507,Donald,Clark,Urology,MD-659146,donald.clark.507@orphan.example.com,(557) 619-1094,7,103,11,371.21,4.1
+508,Margaret,Smith,Psychiatry,MD-373798,margaret.smith.508@orphan.example.com,(539) 774-3678,22,161,11,116.36,4.1
+509,Dorothy,Taylor,Pulmonology,MD-744522,dorothy.taylor.509@orphan.example.com,(790) 473-8901,24,136,9,213.57,3.7
+510,Betty,Sanchez,Urology,MD-754236,betty.sanchez.510@orphan.example.com,(357) 675-2229,23,125,15,279.66,4.4
+511,James,Clark,Cardiology,MD-799842,james.clark.511@orphan.example.com,(452) 874-8492,18,197,6,278.05,4.4
+512,Jessica,Clark,Oncology,MD-391510,jessica.clark.512@orphan.example.com,(965) 877-8453,5,157,7,25,2.5
+513,Paul,Clark,Orthopedics,MD-804369,paul.clark.513@orphan.example.com,(568) 895-9183,25,30,2,99.91,4.6
+514,Richard,Sanchez,Gastro,MD-282263,richard.sanchez.514@orphan.example.com,(932) 836-2679,14,188,2,435.91,3.5
+515,Margaret,Wilson,Orthopedics,MD-944797,margaret.wilson.515@orphan.example.com,(235) 910-2339,14,186,16,192.81,4.6
+516,Karen,Harris,Orthopedics,MD-783930,karen.harris.516@orphan.example.com,(771) 341-8459,29,134,21,330.72,4.2
+517,Sarah,Brown,Family Med,MD-813060,sarah.brown.517@orphan.example.com,(276) 816-4692,26,176,13,133.88,4.3
+518,Patricia,Clark,Gastro,MD-445375,patricia.clark.518@orphan.example.com,(916) 789-9738,19,161,1,248.28,3.9
+519,Karen,Martinez,General Surgery,MD-976729,karen.martinez.519@orphan.example.com,(757) 731-8482,27,162,10,115.94,3.7
+520,Kimberly,Taylor,Orthopedics,MD-405232,kimberly.taylor.520@orphan.example.com,(659) 716-4168,1,123,3,277,4.4
+521,Nancy,Martin,Pediatrics,MD-677124,nancy.martin.521@orphan.example.com,(865) 284-3177,10,32,6,279.73,3.3
+522,Mary,Miller,Radiology,MD-848982,mary.miller.522@orphan.example.com,(494) 213-1842,14,177,20,380.08,4.5
+523,Karen,Miller,Endocrinology,MD-173743,karen.miller.523@orphan.example.com,(250) 534-9412,16,117,10,385.18,4.8
+524,Steven,Rodriguez,Endocrinology,MD-296545,steven.rodriguez.524@orphan.example.com,(880) 778-6869,18,142,9,129.9,4.2
+525,Lisa,Lee,Urology,MD-608612,lisa.lee.525@orphan.example.com,(532) 600-4529,24,119,21,390.37,4.1
+526,Mark,White,Urology,MD-583041,mark.white.526@orphan.example.com,(501) 416-1871,23,117,16,215.89,3.1
+527,Ashley,Moore,Gastro,MD-188483,ashley.moore.527@orphan.example.com,(445) 321-4904,27,102,12,60.83,4
+528,Jennifer,Anderson,Gastro,MD-398966,jennifer.anderson.528@orphan.example.com,(786) 982-9287,0,197,18,25,4
+529,Linda,Wilson,ENT,MD-469142,linda.wilson.529@orphan.example.com,(975) 694-9792,1,189,21,151.09,3.9
+530,Patricia,Gonzalez,General Surgery,MD-289478,patricia.gonzalez.530@orphan.example.com,(530) 913-1294,20,187,11,68.99,4.6
+531,Christopher,Brown,Internal Med,MD-368679,christopher.brown.531@orphan.example.com,(703) 961-1857,23,195,12,329.24,3.9
+532,Barbara,Lee,Neurology,MD-738963,barbara.lee.532@orphan.example.com,(924) 968-2691,15,122,20,379.95,4.5
+533,Lisa,Miller,Nephrology,MD-834263,lisa.miller.533@orphan.example.com,(459) 468-3319,0,124,9,266.54,3.5
+534,Margaret,Jones,Neurology,MD-650200,margaret.jones.534@orphan.example.com,(996) 468-6815,0,188,3,414.98,4
+535,Sandra,Rodriguez,Cardiology,MD-777932,sandra.rodriguez.535@orphan.example.com,(908) 283-7438,16,192,7,355.69,2.6
+536,Ashley,Jackson,Cardiology,MD-428302,ashley.jackson.536@orphan.example.com,(680) 763-3973,29,192,9,404.54,4.6
+537,Joseph,Hernandez,Emergency Med,MD-798436,joseph.hernandez.537@orphan.example.com,(436) 759-5476,16,124,21,275.48,3.6
+538,Nancy,Sanchez,Endocrinology,MD-737446,nancy.sanchez.538@orphan.example.com,(651) 523-6989,9,149,1,-100,3.9
+539,Ashley,Thompson,ENT,MD-280428,ashley.thompson.539@orphan.example.com,(223) 840-5002,9,117,4,121.34,3.1
+540,Barbara,Hernandez,Pulmonology,MD-848831,barbara.hernandez.540@orphan.example.com,(620) 445-7035,23,163,14,389.69,4.2
+541,George,Johnson,ENT,MD-379896,george.johnson.541@orphan.example.com,(452) 205-4231,12,153,20,118.56,4.6
+542,Ashley,Lee,Cardiology,MD-731946,ashley.lee.542@orphan.example.com,(274) 264-3598,17,153,20,124.22,4.6
+543,Mary,Garcia,Cardiology,MD-849805,mary.garcia.543@orphan.example.com,(696) 571-4299,27,199,10,223.2,3.2
+544,David,Smith,Neurology,MD-160642,david.smith.544@orphan.example.com,(494) 829-1694,24,130,18,268.53,3.7
+545,Joseph,Martinez,Family Med,MD-227630,joseph.martinez.545@orphan.example.com,(604) 886-2172,7,174,18,379.28,3.5
+546,Richard,Taylor,Emergency Med,MD-636487,richard.taylor.546@orphan.example.com,(393) 299-9525,0,157,10,203.56,3.8
+547,James,Jackson,Psychiatry,MD-747453,james.jackson.547@orphan.example.com,(421) 722-7015,0,155,21,99.38,3.4
+548,Richard,Perez,Pediatrics,MD-167451,richard.perez.548@orphan.example.com,(222) 595-2141,11,105,5,282.65,2.9
+549,James,Thomas,Family Med,MD-314966,james.thomas.549@orphan.example.com,(552) 303-2842,31,174,1,314.71,3.4
+550,John,Jackson,Orthopedics,MD-409170,john.jackson.550@orphan.example.com,(572) 965-5891,8,109,7,402.27,5
+551,Margaret,Martinez,Dermatology,MD-516236,margaret.martinez.551@orphan.example.com,(912) 982-3412,3,101,19,84.56,4.2
+552,George,Gonzalez,Nephrology,MD-658253,george.gonzalez.552@orphan.example.com,(625) 469-4869,27,149,9,156.38,3.1
+553,Daniel,Harris,Orthopedics,MD-255124,daniel.harris.553@orphan.example.com,(632) 291-5425,8,110,7,133.14,4.4
+554,Mark,Thomas,Ophthalmology,MD-180516,mark.thomas.554@orphan.example.com,(629) 542-4268,36,126,9,106.74,4.9
+555,Sarah,Moore,Radiology,MD-216462,sarah.moore.555@orphan.example.com,(372) 559-5069,40,193,9,332.88,4
+556,Betty,Anderson,Family Med,MD-481708,betty.anderson.556@orphan.example.com,(204) 809-5785,21,112,14,488.92,3.9
+557,Edward,Gonzalez,Internal Med,MD-954015,edward.gonzalez.557@orphan.example.com,(460) 910-2834,24,133,4,227.36,3.5
+558,Sarah,Lopez,Psychiatry,MD-699463,sarah.lopez.558@orphan.example.com,(201) 330-3004,17,127,6,402.51,4.1
+559,Robert,Williams,Emergency Med,MD-217460,robert.williams.559@orphan.example.com,(263) 607-4333,5,192,13,202.25,4.4
+560,James,Johnson,Rheumatology,MD-247312,james.johnson.560@orphan.example.com,(312) 909-4316,1,177,18,447.03,4
+561,Emily,Jones,Pediatrics,MD-766487,emily.jones.561@orphan.example.com,(707) 830-5748,25,123,7,39.37,4.4
+562,Edward,Thompson,Radiology,MD-597243,edward.thompson.562@orphan.example.com,(983) 219-6735,0,156,10,186.28,4.6
+563,Mary,Clark,Orthopedics,MD-640980,mary.clark.563@orphan.example.com,(595) 618-5016,16,107,10,295.36,4.8
+564,Emily,Sanchez,ENT,MD-481915,emily.sanchez.564@orphan.example.com,(642) 512-7956,15,174,5,297.3,5
+565,Kimberly,Lopez,Urology,MD-953209,kimberly.lopez.565@orphan.example.com,(753) 666-9005,5,172,5,213.32,4.2
+566,Elizabeth,White,Orthopedics,MD-679530,elizabeth.white.566@orphan.example.com,(341) 981-4150,8,163,7,172.15,4
+567,Jennifer,Perez,Neurology,MD-199356,jennifer.perez.567@orphan.example.com,(818) 837-2685,19,120,13,496.28,3.8
+568,Kimberly,Johnson,ENT,MD-493545,kimberly.johnson.568@orphan.example.com,(598) 310-7867,37,160,4,84.47,3.9
+569,William,Jackson,Endocrinology,MD-873164,william.jackson.569@orphan.example.com,(886) 272-1152,12,137,3,96.17,4.8
+570,Donald,Thomas,Oncology,MD-598973,donald.thomas.570@orphan.example.com,(317) 526-5613,0,156,9,316.5,3.4
+571,Susan,Garcia,ENT,MD-642681,susan.garcia.571@orphan.example.com,(690) 520-6639,16,191,8,65.15,3.6
+572,Edward,Rodriguez,Ophthalmology,MD-405864,edward.rodriguez.572@orphan.example.com,(370) 799-8175,8,171,15,219.26,4
+573,Paul,Miller,Family Med,MD-633065,paul.miller.573@orphan.example.com,(570) 479-1116,30,189,16,339.62,4.6
+574,Michael,Garcia,Neurology,MD-879351,michael.garcia.574@orphan.example.com,(401) 574-7248,12,176,15,25,4.4
+575,Thomas,Hernandez,Emergency Med,MD-520727,thomas.hernandez.575@orphan.example.com,(839) 729-4527,0,118,12,454.37,5
+576,Kimberly,Anderson,Pulmonology,MD-170122,kimberly.anderson.576@orphan.example.com,(541) 663-6081,8,101,14,320.14,4.7
+577,Susan,Anderson,Gynecology,MD-367379,susan.anderson.577@orphan.example.com,(853) 294-6855,16,101,2,226.61,3.4
+578,Susan,Martin,Emergency Med,MD-855412,susan.martin.578@orphan.example.com,(695) 925-2690,7,139,17,370.78,3
+579,Sarah,Taylor,Pediatrics,MD-641921,sarah.taylor.579@orphan.example.com,(296) 647-1498,20,182,16,77.75,3.7
+580,David,Garcia,Psychiatry,MD-515741,david.garcia.580@orphan.example.com,(526) 763-4541,17,129,12,327.05,4.3
+581,Kenneth,Rodriguez,Internal Med,MD-450295,kenneth.rodriguez.581@orphan.example.com,(962) 451-8212,34,102,18,190.68,3.5
+582,Ashley,Sanchez,Radiology,MD-108322,ashley.sanchez.582@orphan.example.com,(757) 826-5358,9,183,8,307.84,3.9
+583,Karen,Martin,Neurology,MD-303003,karen.martin.583@orphan.example.com,(546) 347-6554,13,146,1,254.44,4.5
+584,George,Jones,Urology,MD-815928,george.jones.584@orphan.example.com,(208) 215-3812,10,128,4,267.57,4
+585,Susan,Anderson,Pediatrics,MD-653871,susan.anderson.585@orphan.example.com,(444) 257-5524,34,126,5,177.24,4
+586,Patricia,Thompson,General Surgery,MD-344245,patricia.thompson.586@orphan.example.com,(251) 292-4906,14,175,10,432.08,3.6
+587,Margaret,Garcia,Gastro,MD-422218,margaret.garcia.587@orphan.example.com,(268) 762-1130,7,104,13,180.02,3.6
+588,Steven,Davis,Orthopedics,MD-351692,steven.davis.588@orphan.example.com,(810) 327-8062,18,112,15,-100,4.3
+589,Karen,Gonzalez,Gastro,MD-806939,karen.gonzalez.589@orphan.example.com,(433) 900-8796,0,191,14,252.36,3.8
+590,Lisa,Garcia,Cardiology,MD-753229,lisa.garcia.590@orphan.example.com,(429) 455-2455,14,198,1,285.69,4.5
+591,Betty,Garcia,Oncology,MD-245622,betty.garcia.591@orphan.example.com,(893) 981-1196,9,188,3,25,4.9
+592,Edward,Rodriguez,Pediatrics,MD-282669,edward.rodriguez.592@orphan.example.com,(426) 629-9979,10,115,18,192.23,4
+593,Mary,Garcia,Family Med,MD-288189,mary.garcia.593@orphan.example.com,(632) 597-3868,3,175,11,42.29,4.3
+594,Christopher,Sanchez,Radiology,MD-478036,christopher.sanchez.594@orphan.example.com,(389) 242-8393,9,188,1,167.93,4.8
+595,Paul,Jones,Gastro,MD-603224,paul.jones.595@orphan.example.com,(364) 793-1883,13,195,13,416.89,10
+596,Joseph,Hernandez,Pediatrics,MD-459210,joseph.hernandez.596@orphan.example.com,(791) 389-3939,19,160,12,335.24,2.5
+597,David,Brown,Rheumatology,MD-558042,david.brown.597@orphan.example.com,(472) 724-7563,13,102,7,317.65,4.4
+598,Edward,Martin,Endocrinology,MD-896874,edward.martin.598@orphan.example.com,(377) 905-1233,23,169,14,344.84,3.8
+599,Robert,Clark,Ophthalmology,MD-508354,robert.clark.599@orphan.example.com,(886) 916-7053,20,134,14,365.24,3.8
+600,Edward,Johnson,Orthopedics,MD-709713,edward.johnson.600@orphan.example.com,(210) 860-5334,12,129,14,90.58,2.9
+601,Kenneth,Harris,Orthopedics,MD-385497,kenneth.harris.601@orphan.example.com,(361) 912-5207,8,189,6,172.86,4.1
+602,Michael,Martinez,Orthopedics,MD-786747,michael.martinez.602@orphan.example.com,(832) 616-4718,19,109,8,323.11,4.3
+603,Mark,Martinez,Rheumatology,MD-241587,mark.martinez.603@orphan.example.com,(542) 414-5512,0,179,6,425.8,4
+604,Edward,Johnson,Neurology,MD-908058,edward.johnson.604@orphan.example.com,(250) 665-3259,17,140,8,489.88,3.7
+605,Betty,Jackson,Family Med,MD-162996,betty.jackson.605@orphan.example.com,(946) 206-8248,20,146,1,211,4.3
+606,Brian,Johnson,Orthopedics,MD-521421,brian.johnson.606@orphan.example.com,(886) 693-7666,4,141,3,306.61,4.5
+607,Patricia,Hernandez,Oncology,MD-659491,patricia.hernandez.607@orphan.example.com,(338) 842-7777,21,132,10,263.27,4
+608,George,Thompson,Pulmonology,MD-129573,george.thompson.608@orphan.example.com,(314) 733-8134,5,153,8,174.81,3.6
+609,Mary,Martinez,Pediatrics,MD-441001,mary.martinez.609@orphan.example.com,(252) 776-7006,39,161,17,443.77,3.7
+610,Kenneth,Rodriguez,Dermatology,MD-310018,kenneth.rodriguez.610@orphan.example.com,(218) 346-6995,6,167,16,283.82,3.5
+611,Margaret,Hernandez,Ophthalmology,MD-342732,margaret.hernandez.611@orphan.example.com,(260) 507-3533,21,159,18,260.32,4.5
+612,Linda,Gonzalez,General Surgery,MD-627596,linda.gonzalez.612@orphan.example.com,(595) 618-8058,6,166,19,266.07,4.4
+613,Nancy,Sanchez,Oncology,MD-972388,nancy.sanchez.613@orphan.example.com,(586) 647-8401,-1,130,3,25,3.6
+614,Daniel,White,Psychiatry,MD-909562,daniel.white.614@orphan.example.com,(867) 587-7004,8,128,12,287.58,3.2
+615,Ashley,Martinez,Dermatology,MD-853836,ashley.martinez.615@orphan.example.com,(367) 623-6553,18,161,12,98.95,4.2
+616,Patricia,Anderson,Dermatology,MD-899685,patricia.anderson.616@orphan.example.com,(276) 298-7963,15,150,11,262.63,4.4
+617,Linda,Jackson,Rheumatology,MD-875897,linda.jackson.617@orphan.example.com,(503) 294-5555,24,118,8,250.7,3.6
+618,Edward,Williams,Pulmonology,MD-980908,edward.williams.618@orphan.example.com,(555) 893-4802,16,148,6,198.83,4.4
+619,William,Thomas,Urology,MD-251549,william.thomas.619@orphan.example.com,(437) 824-1108,15,,3,154.94,3.5
+620,Thomas,Williams,Ophthalmology,MD-526403,thomas.williams.620@orphan.example.com,(675) 942-3611,9,,3,75.77,4.6
+621,Ghost,Doctor,Internal Med,MD-FAKE001,ghost@hosp.example.com,(555) 000-0000,0,999,1,0,0
+622,Bad,Data,Unknown,MD-904344,bad@hosp.example.com,(555) 111-1111,-5,1,1,-100,6
